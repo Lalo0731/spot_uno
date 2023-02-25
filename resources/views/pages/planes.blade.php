@@ -14,12 +14,12 @@
 
       <div class="row">
         <div class="col-lg-4 col-md-6">
-          <div class="pricing-table text-center feature_item">
+          <div class="pricing-table text-center feature_item font-color">
             <div class="title">
-              <h5>Basico</h5>
+              <h3 class="texto-principal">Basico</h3>
             </div>
             <div class="price">
-              <p>$280<span>/ Mes</span></p>
+              <p class="color-priceB animate__animated animate__heartBeat animate__infinite">$280<span>/ Mes</span></p>
             </div>
             <ul class="feature-list">
               <li>1 Mb Subida</li>
@@ -28,18 +28,18 @@
               <li class="resticciones">* aplican restricciones</li>
             </ul>
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded">Start Now</a>
+              <a href="" class="btn btn-main-rounded btn-priceB">Adquirir</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6">
-          <div class="pricing-table featured text-center">
+          <div class="pricing-table featured text-center font-color">
             <div class="title">
-              <h5>Ideal</h5>
+              <h3 class="texto-principal">Ideal</h3>
             </div>
             <div class="price">
-              <p>$320<span>/ Mes</span></p>
+              <p class="animate__animated animate__heartBeat animate__infinite">$320<span>/ Mes</span></p>
             </div>
             <ul class="feature-list">
               <li>A2 Mb Subida</li>
@@ -48,18 +48,18 @@
               <li class="resticciones">* aplican restricciones</li>
             </ul>
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded">Start Now</a>
+              <a href="" class="btn btn-main-rounded">Adquirir</a>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 m-md-auto">
-          <div class="pricing-table text-center feature_item">
+          <div class="pricing-table text-center feature_item font-color">
             <div class="title">
-              <h5>Plus</h5>
+              <h3 class="texto-principal">Plus</h3>
             </div>
             <div class="price">
-              <p>$360<span>/ Mes</span></p>
+              <p class="color-priceP animate__animated animate__heartBeat animate__infinite">$360<span>/ Mes</span></p>
             </div>
             <ul class="feature-list">
               <li>5 Mb Subida</li>
@@ -68,7 +68,7 @@
               <li class="resticciones">* aplican restricciones</li>
             </ul>
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded">Start Now</a>
+              <a href="" class="btn btn-main-rounded btn-priceP">Adquirir</a>
             </div>
           </div>
         </div>

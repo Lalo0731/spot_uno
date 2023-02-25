@@ -14,8 +14,9 @@ body {
 
 .color-recarga{
   background: #3a7bd5;  
-  background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  
-  background: linear-gradient(to right, #3a6073, #3a7bd5); 
+  background: -webkit-linear-gradient(to bottom, #3a6073, #3a7bd5);  
+  background: linear-gradient(to bottom, #3a6073, #3a7bd5); 
+  opacity: 0.8;
 
   /* background: #0F2027; 
   background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  
@@ -59,6 +60,45 @@ body {
   width: 20%!important;
 }
 
+.font-color{
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.color-priceP{
+  color: #69c98d!important;
+}
+
+.btn-priceP{
+  background: #69c98d!important;
+}
+
+.color-priceB{
+  color: #d0ccd1!important;
+}
+
+.btn-priceB{
+  background: #d0ccd1!important;
+}
+
+.texto-principal{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #203A43;
+    text-transform: uppercase;
+}
+
+.texto-planes{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.animate__animated.animate__rubberBand {
+  --animate-duration: 2s;
+}
+
 @media (max-width: 767px){
   .formulario_pagar{
     flex-direction: column;
@@ -69,11 +109,14 @@ body {
 
 .burbuja{
   border-radius: 50%;
-  background: #7F7FD5; 
+  /* background: #7F7FD5; 
   background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
-  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); */
 
-  /* background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%); */
+  background: #000046; 
+  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046); 
+  background: linear-gradient(to bottom, #1CB5E0, #000046);
+
   opacity: .3;
 
   position: absolute;
@@ -267,7 +310,8 @@ p, li, blockquote, label {
   font-size: 14px;
   letter-spacing: 0;
   line-height: 22px;
-  color: #999999;
+  color: #FFFFFF;
+  /* color: #999999; */
   margin-bottom: 0;
 }
 
@@ -1268,7 +1312,7 @@ a:hover {
 }
 
 .pricing-table {
-  background: #fff;
+  /* background: #fff; */
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
   padding: 50px 0;
   margin-bottom: 80px;
@@ -1282,8 +1326,12 @@ a:hover {
 }
 
 .pricing-table:hover{
-  -webkit-box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11);
-  box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.9);
+  /* -webkit-box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.11); */
+  /* box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.9); */
+  border: 2px;
+  transform: translate(10px, 50px);
+
+  box-shadow: 0px 10px 30px #666; 
 }
 
 .pricing-table.featured .price p {

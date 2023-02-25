@@ -154,19 +154,25 @@ body {
 .main-button-gradient a {
   font-size: 13px;
   color: #fff;
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  /* background: rgb(219,138,222); */
+  /* background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%); */
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
   font-weight: 500;
   text-transform: uppercase;
   transition: all .3s;
+
+  background: #2980b9;  
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  
+  background: linear-gradient(to right, #2c3e50, #2980b9); 
+
 }
 
 .main-button-gradient a:hover {
-  background: rgb(219,138,222);
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+  color: #FFF;
+  /* background: rgb(219,138,222);
+  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%); */
   opacity: 0.9;
 }
 
@@ -233,7 +239,7 @@ section {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #dc8cdb;
+  color: #144A82;
 }
 
 .section-heading p {
@@ -247,8 +253,10 @@ header
 --------------------------------------------- 
 */
 .background-header {
-  background: rgb(219,138,222) !important;
-  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+  /* background: rgb(219,138,222) !important;
+  background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important; */
+  background: #0a4f97!important;
+  opacity: 0.8;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;
@@ -274,8 +282,9 @@ header
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
   /* filter: hue-rotate(169deg); */
-  filter: hue-rotate(218deg);
+  /* filter: hue-rotate(218deg); */
   opacity: 0.8;
+  position: fixed;
 }
 
 .header-area .main-nav {
@@ -569,7 +578,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #dc8cdb!important;
+    color: #0e4680!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -1042,14 +1051,17 @@ section.testimonials {
   background-color: transparent;
   /* background-color: #fff; */
   margin: 15px;
-  transition: all .3s;
+  /* transition: all .3s; */
+  transition: all .3s ease;
   position: relative;
   z-index: 2;
+  border-radius: 4rem;
 }
 
-.testimonials .item:hover {
+/* .testimonials .item:hover {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.06);
-}
+  border-radius: 4rem;
+} */
 
 .testimonials .item p {
   font-size: 16px;
@@ -1111,11 +1123,12 @@ footer.contact-us {
   padding: 0px;
   position: relative;
   /* filter: hue-rotate(169deg); */
-  filter: hue-rotate(218deg);
+  /* filter: hue-rotate(218deg); */
   opacity: 0.8;
   height: 12rem;
   /* height: auto; */
   margin-top: auto;
+  opacity: 0.8;
   /* margin-top: -12rem; */
 }
 
@@ -1250,15 +1263,19 @@ footer.contact-us ul.social-icons li a {
   display: inline-block;
   text-align: center;
   line-height: 44px;
-  background-color: #fff;
-  color: #dc8cdb;
+  color: #ffffff;
   border-radius: 50%;
   transition: all .5s;
+
+  background: #000046; 
+  background: -webkit-linear-gradient(to top, #1CB5E0, #000046);
+  background: linear-gradient(to top, #1CB5E0, #000046);
+
 }
 
 footer.contact-us ul.social-icons li a:hover {
   background-color: #dc8cdb;
-  color: #fff;
+  color: #a6a6a791!important;
 }
 
 p.copyright {
@@ -1367,7 +1384,7 @@ section.our-team:before {
   width: 291px;
   height: 231px;
   z-index: 1;
-  filter: hue-rotate(-164deg);
+  opacity: 0.3;
 }
 
 section.our-team:after {
@@ -1380,7 +1397,7 @@ section.our-team:after {
   width: 291px;
   height: 231px;
   z-index: 1;
-  filter: hue-rotate(-164deg);
+  opacity: 0.3;
 }
 
 section.our-team .naccs {
@@ -1779,8 +1796,15 @@ body {
     font-size: 62px;
   }
   .header-area {
-    background: rgb(219,138,222) !important;
-    background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important;
+    background: #0a4f97!important;
+    /* background: rgb(219,138,222) !important;
+    background: linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%) !important; */
+  }
+  .respont-logo{
+    text-align: start;
+  }
+  section.simple-cta {
+    background-size: contain;
   }
   .services .owl-nav .owl-next{
     right: -70px;

@@ -100,6 +100,7 @@
                 title: '¿La recarga seleccionada con número '+ numeroSinEspacio +' es correcto?',
                 showCancelButton: true,
                 confirmButtonText: 'SI, ES CORRECTO',
+                confirmButtonColor: '#0a4f97',
                 }).then((result) => {
 
                 if (result.isConfirmed) {
