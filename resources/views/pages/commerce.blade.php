@@ -16,7 +16,7 @@
               <div class="col-lg-12">
                 <div class="menu">
                   {{--  <div class="active referenceSpot" data-bs-toggle="modal" data-bs-target="#exampleModal">  --}}
-                  <div class="active referenceSpot">
+                  <div class="active referenceSpotOxxo">
                     <img src="{{asset('images/oxxo.png')}}" alt="Oxxo">
                     <h4>OXXO</h4>
                     <!-- <span>CEO-FOUNDER</span> -->
@@ -194,6 +194,57 @@
               $('#exampleModal').modal('show');
             }
           })
+      }
+    })
+  })
+</script>
+
+<script>
+  $('.referenceSpotOxxo').click(function(){
+    
+    let amount = $('#amount').val();
+    let description = $('#description').val();
+
+    console.log("AMOUNT", amount);
+    console.log("description",description);
+
+    data = {
+      amount:amount,
+      description:description
+    };
+
+    $.ajax({
+      url: "{{route('referencesOxxo')}}",
+      type: 'POST',
+      data: data,
+      success: function(response){
+        console.log("response:", response);
+        /*var reference = response.payment_method.reference;
+        var codeBarra = response.payment_method.barcode_url;
+
+          let timerInterval
+          Swal.fire({
+            title: 'Espere un momento',
+            html: 'Se está generando su Referencia de pago',
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+              Swal.showLoading()
+              const b = Swal.getHtmlContainer().querySelector('b')
+              timerInterval = setInterval(() => {
+                b.textContent = Swal.getTimerLeft()
+              }, 100)
+            },
+            willClose: () => {
+              clearInterval(timerInterval)
+            }
+          }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) {
+              $("#referencePago").html(reference);
+              $("#codeBarraPago").attr("src", codeBarra);
+              $('#exampleModal').modal('show');
+            }
+          })*/
       }
     })
   })

@@ -37,3 +37,4 @@ Route::get('/planes', function(){
 
 Route::post('/recargas', 'RechargeController@recharge')->name('recharges');
 Route::get('/references', 'OpenPayController@references')->name('references');
+Route::post('/referencesOxxo', 'ConektaController@referencesOxxo')->name('referencesOxxo');
