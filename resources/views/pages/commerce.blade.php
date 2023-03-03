@@ -57,7 +57,7 @@
       Launch demo modal
     </button> --}}
 
-    <!-- Modal -->
+    <!-- Modal Stripe -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -82,7 +82,7 @@
                 <i class="fa-solid fa-shop colorFont padR"></i>
               </div>
               <div class="col-sm-11 pl-0">
-                <p class="text-justify h6">1. Visita una de las tiendas afiliadas.</p>
+                <p class="text-justify h6 color-reference">1. Visita una de las tiendas afiliadas.</p>
               </div>
             </div>
 
@@ -91,7 +91,7 @@
                 <i class="fa-solid fa-cash-register colorFont padR"></i>
               </div>
               <div class="col-sm-11 pl-0">
-                <p class="text-justify h6">2. Indica en caja que quieres realizar un pago de: OxxoPay.</p>
+                <p class="text-justify h6 color-reference">2. Indica en caja que quieres realizar un pago de: OxxoPay.</p>
               </div>
             </div>
 
@@ -100,7 +100,7 @@
                 <i class="fa-solid fa-barcode colorFont padR"></i>
               </div>
               <div class="col-sm-11 pl-0">
-                <p class="text-justify h6">3. Muestra la referencia de pago o el código de barras para pagar en caja.</p>
+                <p class="text-justify h6 color-reference">3. Muestra la referencia de pago o el código de barras para pagar en caja.</p>
               </div>
             </div>
 
@@ -109,7 +109,7 @@
                 <i class="fa-solid fa-hand-holding-dollar colorFont padR"></i>
               </div>
               <div class="col-sm-11 pl-0">
-                <p class="text-justify h6">4. Confirma el monto a pagar.</p>
+                <p class="text-justify h6 color-reference">4. Confirma el monto a pagar.</p>
               </div>
             </div>
 
@@ -118,7 +118,7 @@
                 <i class="fa-solid fa-check-double colorFont padR"></i>
               </div>
               <div class="col-sm-11 pl-0">
-                <p class="text-justify h6">5. Completa tu pago y recibe tu recarga inmediatamente.</p>
+                <p class="text-justify h6 color-reference">5. Completa tu pago y recibe tu recarga inmediatamente.</p>
               </div>
             </div>
 
@@ -127,7 +127,7 @@
                 <i class="fa-solid fa-file-invoice colorFont padR"></i>
               </div>
               <div class="col-sm-11 pl-0">
-                <p class="text-justify h6">6. El cajer@ te entregará un comprobante impreso. Consérvalo en caso qué requieras ayuda.</p>
+                <p class="text-justify h6 color-reference">6. El cajer@ te entregará un comprobante impreso. Consérvalo en caso qué requieras ayuda.</p>
               </div>
             </div>
 
@@ -136,13 +136,13 @@
                 <i class="fa-solid fa-comment-sms colorFont padR"></i>
               </div>
               <div class="col-sm-11 pl-0">
-                <p class="text-justify h6">7. Recibirás un SMS confirmando tu recarga.</p>
+                <p class="text-justify h6 color-reference">7. Recibirás un SMS confirmando tu recarga.</p>
               </div>
             </div>
 
             <div class="row">
               <div class="col-sm-11 pl-0">
-                <p class="text-center fw-bold fs-5 mt-3">Tomar captura por cualquier duda o aclaración </p>
+                <p class="text-center fw-bold fs-5 mt-3 color-reference">Tomar captura por cualquier duda o aclaración </p>
               </div>
             </div>
           </div>
@@ -150,6 +150,59 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
           {{--  <button type="button" class="btn btn-primary">Pagar</button>  --}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{--  Modal Conekta  --}}
+  <div class="modal fade" tabindex="-1" role="dialog" id="stub">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Referencia de Pago</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="opps">
+            <div class="opps-header">
+              <div class="opps-reminder">Ficha digital. No es necesario imprimir.</div>
+              <div class="opps-info">
+                <div class="opps-brand"><img src="{{asset('images/oxxopay_brand.png')}}" alt="OXXOPay"></div>
+                <div class="opps-ammount">
+                  <h3 class="text-h3">Monto a pagar</h3>
+                  <h2>$ <span id="stub_price"></span> <sup id="stub_currency"></sup></h2>
+                  <p>OXXO cobrará una comisión adicional al momento de realizar el pago.</p>
+                </div>
+              </div>
+              <div class="opps-reference">
+                <h3 class="text-h3">Referencia</h3>
+                <h1 class="text-h1" id="stub_reference"></h1>
+              </div>
+              <div class="opps-reference mt-2">
+                <h3 class="text-h3">Codigo de Barra</h3>
+                <img src="" alt="" id="codeBarra">
+              </div>
+            </div>
+            <div class="opps-instructions">
+              <h3 class="text-h3">Instrucciones</h3>
+              <ol class="ol">
+                <li>Acude a la tienda OXXO más cercana. <a class="a" href="https://www.google.com.mx/maps/search/oxxo/" target="_blank">Encuéntrala aquí</a>.</li>
+                <li>Indica en caja que quieres realizar un pago de servicio<strong></strong>.</li>
+                <li>Dicta al cajero el número de referencia en esta ficha para que tecleé directamete en la pantalla de venta.</li>
+                <li>Realiza el pago correspondiente con dinero en efectivo.</li>
+                <li>Al confirmar tu pago, el cajero te entregará un comprobante impreso. <strong>En el podrás verificar que se haya realizado correctamente.</strong> Conserva este comprobante de pago.</li>
+              </ol>
+              <div class="opps-footnote">Al completar estos pasos recibirás un correo de <strong>Nombre del negocio</strong> confirmando tu pago.</div>
+            </div>
+          </div>	
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -203,10 +256,8 @@
   $('.referenceSpotOxxo').click(function(){
     
     let amount = $('#amount').val();
+    {{--  let amount = 300.50;  --}}
     let description = $('#description').val();
-
-    console.log("AMOUNT", amount);
-    console.log("description",description);
 
     data = {
       amount:amount,
@@ -218,7 +269,28 @@
       type: 'POST',
       data: data,
       success: function(response){
-        console.log("response:", response);
+        console.log(response);
+        console.log("response.code",response.message);
+        console.log("response.charges",response.charges.data[0]);
+
+        var amount = response.charges.data[0].amount;
+        var currency = response.charges.data[0].currency;
+        var reference = response.charges.data[0].payment_method.reference;
+        var codigoBarra = response.charges.data[0].payment_method.barcode_url;
+        
+        $('#stub').modal('show');
+
+        if(response.code){
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: response.message,
+          })
+        }
+        else{
+          showOxxoReference(amount, currency, reference, codigoBarra);
+        }
+
         /*var reference = response.payment_method.reference;
         var codeBarra = response.payment_method.barcode_url;
 
@@ -248,6 +320,22 @@
       }
     })
   })
+
+  function showOxxoReference(amount, currency, reference, codigoBarra){
+    amount = amount/100;
+
+    $('#stub_price').text(amount);
+    $('#stub_currency').text(currency);
+    $('#stub_reference').text(reference);
+    $("#codeBarra").attr("src", codigoBarra);
+
+    {{--  $('#referenceWhatsapp2').removeClass('d-none');
+    $('#btn-reference-oxxo').removeClass('d-none');
+    $('#btn-reference-openpay').addClass('d-none');
+    $('#montoOxxo').html('$'+amount.toFixed(2)+'<sup>MXN</sup>');
+    $('#referenceOxxoCard').html(reference);
+    $('#referenceOxxo').modal('show');  --}}
+  } 
 </script>
 
 @endsection

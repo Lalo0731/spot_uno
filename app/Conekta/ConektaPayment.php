@@ -43,7 +43,7 @@ class ConektaPayment{
         // }
         
         $line_items = [];
-        $line_items[0]['name'] = "Servicio de Internet";
+        $line_items[0]['name'] = "SPOT UNO";
         $line_items[0]['unit_price'] = $amount;
         $line_items[0]['currency'] = "MXN";
         $line_items[0]['quantity'] = $amount;
@@ -63,9 +63,26 @@ class ConektaPayment{
         // $order['customer_info']['phone'] = $cel_destiny_reference;
         $order['charges'] = $charges;
 
-        $conekta_order = \Conekta\Order::create($order);
+        try{
+            $conekta_order = \Conekta\Order::create($order);
 
-        return $conekta_order;
+            if(isset($conekta_order->id)){
+               
+                return $conekta_order;
+            }
+        }catch(\Conekta\ParameterValidationError $error){
+            $err['code'] = $error->getCode();
+            $err['message'] = $error->getMessage();
+            return $err;
+        }catch(\Conekta\Handler $error){
+            $err['code'] = $error->getCode();
+            $err['message'] = $error->getMessage();
+            return $err;
+        }
+
+        // $conekta_order = \Conekta\Order::create($order);
+
+        // return $conekta_order;
 
 
     }

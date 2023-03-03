@@ -17,6 +17,7 @@ class ConektaController extends Controller
 
     public function referencesOxxo(Request $request){
         $payment = $this->ConektaPayment->createOrderConekta($request);
+        // print_r($payment); exit;
         return $payment;
     }
 }

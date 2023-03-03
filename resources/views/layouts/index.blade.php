@@ -92,6 +92,46 @@ https://templatemo.com/tm-573-eduwell
       </div>
     </div>
   </footer>
+
+  {{--  BARRA TIPO APP EN RESPONSIVE  --}}
+  {{--  <nav class="tabbar">
+    <div>
+      <a href="https://clinicadefisioterapiacdmx.com">
+        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/home.svg" alt="Up Therapy">
+        Inicio
+      </a>
+    </div>
+  
+    <div>
+      <a class="btn_especialidades" href="javascript:void(0)">
+        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/star.svg" alt="Up Therapy">
+        Especialidades
+      </a>
+    </div>
+  
+    <div class="whatsapp">
+      <a target="_blank" href="https://wa.me/525547576392?text=">
+        <div>
+          <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/whatsapp.svg" alt="Up Therapy">
+        </div>
+      </a>
+    </div>
+  
+    <div>
+      <a class="btn_inovaciones" href="javascript:void(0)">
+        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/led.svg" alt="Up Therapy">
+        Innovaciones
+      </a>
+    </div>
+  
+    <div>
+      <a target="_blank" href="https://www.doctoralia.com.mx/clinicas/up-therapy-mx?utm_source=widget-clinic-34368&amp;utm_medium=link&amp;widget=1&amp;fid=34368">
+        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/calendar.svg" alt="Up Therapy">
+        Calendario
+      </a>
+    </div>
+  </nav>  --}}
+  {{--  BARRA TIPO APP EN RESPONSIVE  --}}
   
   <!-- Scripts -->
 
