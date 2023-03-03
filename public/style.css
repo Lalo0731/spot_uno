@@ -145,6 +145,18 @@ body {
   }
 }
 
+@media (max-width: 767px){
+  .opps {
+    width: 340px;
+  }
+}
+
+@media (min-width: 992px){
+  .modal-conekta {
+      max-width: 700px;
+  }
+}
+
 
 /** INICIO MODAL CONEKTA**/
 .text-h3 {
@@ -155,7 +167,8 @@ body {
 }
 
 .opps {
-	width: 496px; 
+	/* width: 496px;  */
+	width: auto; 
 	border-radius: 4px;
 	box-sizing: border-box;
 	padding: 0 45px;
@@ -198,7 +211,8 @@ body {
 }
 
 .opps-brand img {
-	max-width: 250px;
+	/* max-width: 250px; */
+  width: 134%;
 	margin-top: 2px;
 }
 
@@ -251,7 +265,7 @@ body {
 	margin: 17px 0 0 16px;
 }
 
-li + li {
+.li + .li {
 	margin-top: 10px;
 	color: #000000;
 }
@@ -269,6 +283,30 @@ li + li {
 	border-radius: 4px;
 	background: #ffffff;
 }
+
+
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.close {
+  float: right;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
 /** FINAL MODAL CONEKTA**/
 
 

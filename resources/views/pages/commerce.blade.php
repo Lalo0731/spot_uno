@@ -154,14 +154,15 @@
       </div>
     </div>
   </div>
+    <!-- Modal Stripe -->
 
   {{--  Modal Conekta  --}}
   <div class="modal fade" tabindex="-1" role="dialog" id="stub">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog modal-conekta" role="document"> {{--  modal-lg --}}
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">Referencia de Pago</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeModal">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -179,22 +180,22 @@
                 </div>
               </div>
               <div class="opps-reference">
-                <h3 class="text-h3">Referencia</h3>
+                <h3 class="text-h3 text-center">Referencia</h3>
                 <h1 class="text-h1" id="stub_reference"></h1>
               </div>
-              <div class="opps-reference mt-2">
-                <h3 class="text-h3">Codigo de Barra</h3>
-                <img src="" alt="" id="codeBarra">
+              <div class="opps-reference mt-4">
+                <h3 class="text-h3 text-center">Codigo de Barra</h3>
+                <img src="" alt="" id="codeBarra" class="w-50 mx-auto d-block">
               </div>
             </div>
             <div class="opps-instructions">
               <h3 class="text-h3">Instrucciones</h3>
               <ol class="ol">
-                <li>Acude a la tienda OXXO más cercana. <a class="a" href="https://www.google.com.mx/maps/search/oxxo/" target="_blank">Encuéntrala aquí</a>.</li>
-                <li>Indica en caja que quieres realizar un pago de servicio<strong></strong>.</li>
-                <li>Dicta al cajero el número de referencia en esta ficha para que tecleé directamete en la pantalla de venta.</li>
-                <li>Realiza el pago correspondiente con dinero en efectivo.</li>
-                <li>Al confirmar tu pago, el cajero te entregará un comprobante impreso. <strong>En el podrás verificar que se haya realizado correctamente.</strong> Conserva este comprobante de pago.</li>
+                <li class="li">Acude a la tienda OXXO más cercana. <a class="a" href="https://www.google.com.mx/maps/search/oxxo/" target="_blank">Encuéntrala aquí</a>.</li>
+                <li class="li">Indica en caja que quieres realizar un pago de servicio<strong></strong>.</li>
+                <li class="li">Dicta al cajero el número de referencia en esta ficha para que tecleé directamete en la pantalla de venta.</li>
+                <li class="li">Realiza el pago correspondiente con dinero en efectivo.</li>
+                <li class="li">Al confirmar tu pago, el cajero te entregará un comprobante impreso. <strong>En el podrás verificar que se haya realizado correctamente.</strong> Conserva este comprobante de pago.</li>
               </ol>
               <div class="opps-footnote">Al completar estos pasos recibirás un correo de <strong>Nombre del negocio</strong> confirmando tu pago.</div>
             </div>
@@ -202,7 +203,7 @@
 
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -224,29 +225,29 @@
         var reference = response.payment_method.reference;
         var codeBarra = response.payment_method.barcode_url;
 
-          let timerInterval
-          Swal.fire({
-            title: 'Espere un momento',
-            html: 'Se está generando su Referencia de pago',
-            timer: 2000,
-            timerProgressBar: true,
-            didOpen: () => {
-              Swal.showLoading()
-              const b = Swal.getHtmlContainer().querySelector('b')
-              timerInterval = setInterval(() => {
-                b.textContent = Swal.getTimerLeft()
-              }, 100)
-            },
-            willClose: () => {
-              clearInterval(timerInterval)
-            }
-          }).then((result) => {
-            if (result.dismiss === Swal.DismissReason.timer) {
-              $("#referencePago").html(reference);
-              $("#codeBarraPago").attr("src", codeBarra);
-              $('#exampleModal').modal('show');
-            }
-          })
+        let timerInterval
+        Swal.fire({
+          title: 'Espere un momento',
+          html: 'Se está generando su Referencia de pago',
+          timer: 2000,
+          timerProgressBar: true,
+          didOpen: () => {
+            Swal.showLoading()
+            const b = Swal.getHtmlContainer().querySelector('b')
+            timerInterval = setInterval(() => {
+              b.textContent = Swal.getTimerLeft()
+            }, 5)
+          },
+          willClose: () => {
+            clearInterval(timerInterval)
+          }
+        }).then((result) => {
+          if (result.dismiss === Swal.DismissReason.timer) {
+            $("#referencePago").html(reference);
+            $("#codeBarraPago").attr("src", codeBarra);
+            $('#exampleModal').modal('show');
+          }
+        })
       }
     })
   })
@@ -278,7 +279,7 @@
         var reference = response.charges.data[0].payment_method.reference;
         var codigoBarra = response.charges.data[0].payment_method.barcode_url;
         
-        $('#stub').modal('show');
+        {{--  $('#stub').modal('show');  --}}
 
         if(response.code){
           Swal.fire({
@@ -288,7 +289,30 @@
           })
         }
         else{
-          showOxxoReference(amount, currency, reference, codigoBarra);
+
+          let timerInterval
+          Swal.fire({
+            title: 'Espere un momento',
+            html: 'Se está generando su Referencia de pago',
+            timer: 2000,
+            timerProgressBar: true,
+            didOpen: () => {
+              Swal.showLoading()
+              const b = Swal.getHtmlContainer().querySelector('b')
+              timerInterval = setInterval(() => {
+                b.textContent = Swal.getTimerLeft()
+              }, 5)
+            },
+            willClose: () => {
+              clearInterval(timerInterval)
+            }
+          }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.timer) {
+              showOxxoReference(amount, currency, reference, codigoBarra);
+              $('#stub').modal('show');
+            }
+          })
+          
         }
 
         /*var reference = response.payment_method.reference;
@@ -336,6 +360,12 @@
     $('#referenceOxxoCard').html(reference);
     $('#referenceOxxo').modal('show');  --}}
   } 
+</script>
+
+<script>
+  $('#closeModal').click( function(){
+    $('#stub').modal('hide')
+  })
 </script>
 
 @endsection
