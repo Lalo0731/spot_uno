@@ -10,7 +10,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="4000">
-        <img src="{{asset('images/imgtel1.jpeg')}}" class="d-block w-100" alt="...">
+        <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="5000">
         <img src="{{asset('images/imgtel2.jpg')}}" class="d-block w-100" alt="...">
@@ -30,69 +30,69 @@
     </button>
   </div>
 
-<section class="pricing bg-shape ">
+<section class="pricing bg-shape">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="section-title">
-          <div class="header-text">
-            <h2>¿Quieres velocidad de verdad?</h2>
-            <div class="main-button-gradient">
-              <div class="scroll-to-section"><a href="{!! URL::to('planes')!!}">Contrátalo ahora!</a></div>
-            </div>
+        <div class="d-flex flex-row">
+          <div class="img-banner">
+            <img src="{{asset('images/Banner-peque.jpg')}}" alt="Banner secundario" class="img-bannerSecundario">
+          </div>
+          <div>
+            <h2 class="color-titulo">¿Quiénes somos?</h2>
+              <p class="text-quienes_somos">
+                Somos una empresa que ofrece conexiones a internet de banda ancha en áreas de difícil acceso por
+                los operadores tradicionales, además de conexiones de internet a alta velocidad también en zonas urbanas.
+              </p>
+              <ul class="iconos-informacion">
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen1" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto">Wifi en todos tus dispositivos</p></div>
+                </li>
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen2" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto">Soporte 24/7</p>
+                  </div>
+                </li>
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen3" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto">Los mejores planes</p>
+                  </div>
+                </li>
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen4" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto">Personal capacitado</p>
+                  </div>
+                </li>
+            </ul>
           </div>
         </div>
       </div>     
+  </div>
+</section>
 
-      <div class="col-lg-4">
-          <div class="thumb">
-            <img src="{{asset('images/nave-unscreen.gif')}}" alt="" style="width: 50%;">
-          </div>
-      </div> 
-      <div class="col-lg-11" style="text-align: center;">
-        <div id="video" style="margin-top: -9.3rem;">
-          <div class="thumb">
-            <img src="{{asset('images/diviertete-unscreen.gif')}}" alt="" style="width: 9%;">
-          </div>
+<section>
+  <div>  {{--  class="container"  --}}
+    <div class="row">
+      <div class="col color-apart p-3">
+        <h3 class="text-white mb-3 text-center p-3">¿Aún no eres parte de <spa class="fw-bold">SpotUno</spa>?</h3>
+        <h5 class="text-white text-center">¿Qué esperas? adquiérelo y disfruta de todos los beneficios</h5>
+        <div class="col text-center p-3">
+          <button type="button" class="btn btn-outline-secondary btn-border">¡Solicítalo ya!</button>
         </div>
       </div>
-      <div class="col-lg-11" style="margin-left: 15rem;">
-        <div id="video" style="margin-top: -15.3rem;">
-          <div class="thumb">
-            <img src="{{asset('images/diviertete-unscreen.gif')}}" alt="" style="width: 5%;">
-          </div>
+      <div class="col color-paquet p-3">
+        <h3 class="text-white mb-3 text-center p-3">Disfruta de todo <span class="fw-bold">nuestros paquetes</span></h3>
+        <h5 class="text-white text-center">Queremos ofrecerte solo lo mejor, seleccina, compra y disfruta</h5>
+        <div class="col text-center p-3">
+          <button type="button" class="btn btn-outline-secondary btn-border">Ver paquetes</button>
         </div>
       </div>
-      <div class="col-lg-4" style="text-align: right;">
-          <div style="margin-top: 1rem;">
-            <img src="{{asset('images/nave-unscreen.gif')}}" alt="" style="width: 37%;">
-          </div>
-      </div> 
-      <div class="col-lg-4" style="text-align: right;">
-            <div style="margin-top: 1rem;">
-              <img src="{{asset('images/nave-unscreen.gif')}}" alt="" style="width: 37%;">
-            </div>
-        </div> 
-        <div class="col-lg-11" style="text-align: right;">
-          <div id="video" style="margin-top: -22.3rem;">
-            <div class="thumb">
-              <img src="{{asset('images/diviertete-unscreen.gif')}}" alt="" style="width: 50%;">
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12" style="text-align: right;">
-            <div style="margin-top: -24rem;">
-              <img src="{{asset('images/nave-unscreen.gif')}}" alt="" style="width: 21%;">
-            </div>
-        </div>
-        <div class="col-lg-11" style="text-align: right;">
-          <div id="video" style="margin-top: -9.3rem;">
-            <div class="thumb">
-              <img src="{{asset('images/diviertete-unscreen.gif')}}" alt="" style="width: 9%;">
-            </div>
-          </div>
-        </div> 
-      </div>
+    </div>
   </div>
 </section>
 
@@ -121,7 +121,8 @@
         
         <div class="col-lg-12">
           <div class="section-heading">
-            <h2 class="mb-3">Tenemos los mejores <span class="texto-planes">planes,</span> que esperas para obtener el tuyo</h2>
+            <h2 class="mb-3">¡Tenemos los mejores planes!</h2>
+            <h2><span class="texto-planes">¡Obtener el que más te guste!</span></h2>
             <h4>Ven Y descubre los mejores <em>planes para ti en los mejores precios.</em></h4>
           </div>
         </div>

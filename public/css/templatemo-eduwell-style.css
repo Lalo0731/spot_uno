@@ -266,7 +266,7 @@ header
 }
 
 .header-area {
-  background-image: url(../images/header-bg.png);
+  background-image: url(../images/Barra-header.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -338,7 +338,8 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 400;
+  font-weight: bold;
+  /* font-weight: 400; */
   font-size: 18px;
   text-transform: capitalize;
   color: #fff;
@@ -354,9 +355,14 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #111!important;
+  color: #fff!important;
   opacity: 0.75;
 }
+.header-area .main-nav .nav li a.active {
+  color: #004a8d!important;
+  /* opacity: 0.75; */
+}
+
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {

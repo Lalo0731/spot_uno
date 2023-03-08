@@ -92,7 +92,7 @@ body {
 
 .texto-planes{
   font-weight: bold;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .animate__animated.animate__rubberBand {
@@ -101,6 +101,67 @@ body {
 
 .color-reference{
   color: #999999;
+}
+
+.btn-enalce{
+  background-color: #FFF;
+  border-radius: 0.5rem;
+}
+
+.section-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.img-banner{
+  padding: 0rem 2rem 0rem 6rem;
+}
+.text-quienes_somos{
+  color:#000;
+  font-size: 16px;
+  margin-top: 0.5rem;
+}
+.img-bannerSecundario{
+  width: 100%;
+  border-radius: 1rem;
+}
+.color-titulo{
+  color: #2c4c88;
+  font-weight: bold;
+}
+.iconos-informacion {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  /* grid-gap: 0rem; */
+  padding: 0;
+  margin: 2rem 0px 6rem 6rem;
+}
+.color-texto{
+  color: #2c4c88;
+  font-weight: bold;
+}
+.iconos-informacion__texto {
+  margin: 0 0 0 1rem;
+}
+.Pont-check{
+  width: 10%;
+  margin-bottom: 1rem;
+}
+.color-apart{
+  background-color: #074c8d;
+}
+.color-paquet{
+  background-color: #003cea;
+}
+.btn-border{
+  color: #fff!important;
+  border-color: #fff!important;;
+}
+.btn-border:hover{
+  color: #074c8d!important;
+  background-color: #fff;
+  border-color: #074c8d!important;;
 }
 
 /** BARRA TIPO APP EN RESPONSIVE**/

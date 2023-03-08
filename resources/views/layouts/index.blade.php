@@ -55,9 +55,9 @@ https://templatemo.com/tm-573-eduwell
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li ><a href="/" class="{{(request () -> is ('/')) ? 'active': ''}}">Inicio</a></li>
-                        <li ><a href="{!! URL::to('recarga')!!}" class="{{(request () -> is ('recarga*')) ? 'active': ''}}">Recarga</a></li>
-                        <li ><a href="{!! URL::to('planes')!!}" class="{{(request () -> is ('planes')) ? 'active': ''}}">Planes</a></li>
+                        <li class="{{(request () -> is ('/')) ? 'btn-enalce': ''}}"><a href="/" class="h-color {{(request () -> is ('/')) ? 'active': ''}}">Inicio</a></li>
+                        <li class="{{(request () -> is ('recarga')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('recarga')!!}" class="h-color {{(request () -> is ('recarga')) ? 'active': ''}}">Recarga</a></li>
+                        <li class="{{(request () -> is ('planes')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('planes')!!}" class="h-color {{(request () -> is ('planes')) ? 'active': ''}}">Planes</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
