@@ -118,6 +118,7 @@ https://templatemo.com/tm-573-eduwell
 
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
             <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Contacto</h2>
+            <hr class="hr-enlaces">
             <ul class="list-unstyled">
                 <li><p class="text-white">C. José María Bear Alva 2514 col.</p></li>
                 <li><p class="text-white">Barrio de Londres</p></li>
