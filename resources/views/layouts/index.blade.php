@@ -76,13 +76,55 @@ https://templatemo.com/tm-573-eduwell
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <ul class="social-icons">
+          <div class="row">
+          <div class="col pt-5">
+            <a href="/" class="logo respont-logo">
+              <img src="{{asset('images/logo.png')}}" alt="EduWell Template" class="img-logoFooter">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
+            <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Enlaces</h2>
+            <hr class="hr-enlaces">
+            <ul class="list-unstyled">
+                <li><a href="https://altcel2.com/my-conecta" class="py-2 d-block text-white">Inicio</a></li>
+                <li><a href="https://altcel2.com" class="py-2 d-block text-white">Paquetes</a></li>
+                <li><a href="https://altcel2.com/contact" class="py-2 d-block text-white">Recarga</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
+            <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Contáctanos</h2>
+            <hr class="hr-enlaces">
+            <ul class="list-unstyled">
+                <li><p class="text-white">¿Tienes alguna duda?</p></li>
+                <li><p class="text-white">Envíanos un e-mail</p></li>
+            </ul>
+            <div>
+              <div class="col-12 col-sm-10">
+                <input type="text" class="form-control border-0 inputContacto" placeholder="Tú nombre" style="height: 55px;" id="contactoNombre" name="contactoNombre">
+              </div>
+              <div class="col-12 col-sm-10">
+                <textarea class="form-control mt-3 inputContacto" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
+              </div>
+            </div>
+          </div>
+
+          {{--  <ul class="social-icons col">
             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa fa-rss"></i></a></li>
             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          </ul>
+          </ul>  --}}
+
+          <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
+            <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Contacto</h2>
+            <ul class="list-unstyled">
+                <li><p class="text-white">C. José María Bear Alva 2514 col.</p></li>
+                <li><p class="text-white">Barrio de Londres</p></li>
+                <li><p class="text-white">Chihuahua, chih. C.P. 31060</p></li>
+            </ul>
+          </div>
+        </div>
         </div>
         <!-- <div class="col-lg-12">
           <p class="copyright">Copyright © 2022 EduWell Co., Ltd. All Rights Reserved.

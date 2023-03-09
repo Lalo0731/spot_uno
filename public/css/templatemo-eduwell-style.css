@@ -984,7 +984,7 @@ cta
 */
 
 section.simple-cta {
-  background-image: url(../images/foot_mejorPlanes.jpg);
+  background-image: url(../images/banner-inferior-wifi.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1087,13 +1087,13 @@ section.testimonials {
   color: #dc8cdb;
 }
 
-.testimonials .item img {
+/* .testimonials .item img {
   max-width: 44px;
   z-index: 2;
   position: absolute;
   right: 30px;
   bottom: 30px
-}
+} */
 
 .testimonials .owl-dots {
   text-align: center;
@@ -1122,20 +1122,19 @@ contact us
 */
 
 footer.contact-us {
-  background-image: url(../images/footer-bg.png);
+  background: #074c8d;
+  background: -webkit-linear-gradient(to left, #074c8d, #003fd6)!important;
+  background: linear-gradient(to left, #074c8d, #003fd6)!important;
+  /* background-image: url(../images/footer-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0px;
   position: relative;
-  /* filter: hue-rotate(169deg); */
-  /* filter: hue-rotate(218deg); */
   opacity: 0.8;
   height: 12rem;
-  /* height: auto; */
   margin-top: auto;
-  opacity: 0.8;
-  /* margin-top: -12rem; */
+  opacity: 0.8; */
 }
 
 section.contact-us:after {

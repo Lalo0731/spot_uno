@@ -1,3 +1,4 @@
+
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Open+Sans:400,400i,700");
 body {
@@ -53,7 +54,7 @@ body {
 
 .resticciones{
   font-weight: bold;
-  font-size: 0.6rem!important;
+  font-size: 0.9rem!important;
 }
 
 .img-logo{
@@ -61,9 +62,10 @@ body {
 }
 
 .font-color{
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  background: #e5e7e9!important;
+  /* background: #000046;  
+  background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046); 
+  background: linear-gradient(to bottom, #1CB5E0, #000046);  */
 }
 
 .color-priceP{
@@ -71,7 +73,9 @@ body {
 }
 
 .btn-priceP{
-  background: #69c98d!important;
+  background: #f59900;
+  background: -webkit-linear-gradient(to left, #f59900, #f3ee00)!important;
+  background: linear-gradient(to left, #f59900, #f3ee00)!important;
 }
 
 .color-priceB{
@@ -79,7 +83,15 @@ body {
 }
 
 .btn-priceB{
-  background: #d0ccd1!important;
+  background: #074c8d;
+  background: -webkit-linear-gradient(to left, #074c8d, #003fd6)!important;
+  background: linear-gradient(to left, #074c8d, #003fd6)!important;
+}
+
+.btn-priceI{
+  background: #007b45;
+  background: -webkit-linear-gradient(to left, #007b45, #00b800)!important;
+  background: linear-gradient(to left, #007b45, #00b800)!important;
 }
 
 .texto-principal{
@@ -92,6 +104,7 @@ body {
 
 .texto-planes{
   font-weight: bold;
+  color: #195ee2;
   /* font-style: italic; */
 }
 
@@ -162,6 +175,66 @@ body {
   color: #074c8d!important;
   background-color: #fff;
   border-color: #074c8d!important;;
+}
+.img-rayo{
+  width: 89%;
+  /* margin-bottom: 1rem; */
+}
+.section-heading__text{
+  margin-left: -4rem;
+}
+.rayo{
+  margin-top: -6rem;
+}
+.color-basico{
+  background: #074c8d;
+  background: -webkit-linear-gradient(to left, #074c8d, #074c8de6);
+  background: linear-gradient(to left, #074c8d, #074c8de6);
+}
+.color-ideal{
+  background: #007b45;
+  background: -webkit-linear-gradient(to left, #007b45, #007b43);
+  background: linear-gradient(to left, #007b45, #007b43);
+}
+.color-plus{
+  background: #f59900;
+  background: -webkit-linear-gradient(to left, #f59900, #f3ee00);
+  background: linear-gradient(to left, #f59900, #f3ee00);
+}
+.img-basico{
+  margin-top: 0.5rem;
+  margin-bottom: -2rem;
+}
+.hr-basico{
+  background-color: #2c68e3;
+  height: 0.2rem!important;
+  width: 80%;
+  margin: auto;
+}
+.hr-ideal{
+  background-color: #02814c;
+  height: 0.2rem!important;
+  width: 80%;
+  margin: auto;
+}
+.hr-enlaces{
+  background-color: #ffffff;
+  height: 0.2rem!important;
+  width: 80%;
+  /* margin: auto; */
+}
+.hr-plus{
+  background-color: #f7b300;
+  height: 0.2rem!important;
+  width: 80%;
+  margin: auto;
+}
+.img-logoFooter{
+  width: 50%!important;
+}
+.inputContacto{
+    background: transparent!important;
+    border: 1px solid #2d5a8d!important;
 }
 
 /** BARRA TIPO APP EN RESPONSIVE**/
@@ -574,7 +647,7 @@ p, li, blockquote, label {
   font-size: 14px;
   letter-spacing: 0;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #000;
   /* color: #999999; */
   margin-bottom: 0;
 }
@@ -617,7 +690,7 @@ ul.feature-list {
 ul.feature-list li {
   list-style: none;
   margin: 15px 0;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 ul.post-tag {
