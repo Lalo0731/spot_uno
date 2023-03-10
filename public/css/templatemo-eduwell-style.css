@@ -126,12 +126,12 @@ body {
 }
 
 ::selection {
-  background: #dc8cdb;
+  background: #0a4f97;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #dc8cdb;
+  background: #0a4f97;
   color: #fff;
 }
 
@@ -579,8 +579,18 @@ header
 }
 
 @media (max-width: 767px) {
+  /**LALO**/
   .img-banner{
     padding: 0rem 0rem 0rem 0rem!important;
+  }
+  .img-wifi-respon{
+    margin-top: 3rem;
+  }
+  .img-wifi {
+    width: 300%!important;
+  }
+  .mt5{
+    margin-top: 5rem;
   }
 
   .iconos-informacion {
@@ -1121,7 +1131,7 @@ section.testimonials {
 }
 
 .testimonials .owl-dots .active {
-  background-color: #dc8cdb;
+  background-color: #0a4f97;
 }
 
 
@@ -1820,7 +1830,8 @@ body {
     text-align: start;
   }
   section.simple-cta {
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
   }
   .services .owl-nav .owl-next{
     right: -70px;

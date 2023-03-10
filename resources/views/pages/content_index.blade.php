@@ -8,7 +8,7 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner mt5">
       <div class="carousel-item active" data-bs-interval="4000">
         <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100" alt="...">
       </div>
@@ -266,6 +266,32 @@
   </section>
 
   <section class="simple-cta mb-5">
+    <div class="grid-wifi">
+      <div class="img-wifi-respon">
+        <img src="{{asset('images/wifi.png')}}" alt="Banner secundario" class="img-wifi">
+      </div>
+      <div class="mt-4">
+        <h2 class="fw-bold text-white">¡Wifi en todos</h2>
+        <h2 class="fw-bold text-white">tus dispositivos!</h2>
+      </div>
+    </div>
   </section> 
+
+  <section class="m-informacion">
+    <div class="d-flex justify-content-lg-center">
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Aviso de privacidad/</a>
+      </div>
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Terminos y condiciones/</a>
+      </div>
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Cobertura/</a>
+      </div>
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Legales</a>
+      </div>
+    </div>
+  </section>
 
 @endsection

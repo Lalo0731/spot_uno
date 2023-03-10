@@ -251,6 +251,24 @@ body {
   background: url(../images/Banner-velocidad.jpg) center center no-repeat;
   background-size: cover;
 }
+.img-wifi{
+  width: 200%;
+}
+
+.grid-wifi{
+  display: grid;
+  grid-template-columns: 8% auto;
+  padding-left: 2rem;
+}
+.m-informacion{
+  margin: 14px;
+}
+.nav-informacion{
+  cursor: pointer;
+}
+.nav-informacion:hover{
+  color:#0141C5;
+}
 /** BARRA TIPO APP EN RESPONSIVE**/
 /* .tabbar {
   grid-area: tabbar;
