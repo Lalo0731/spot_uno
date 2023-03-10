@@ -9,14 +9,14 @@ body {
 /*## ESTILOS DE LALO INICIO##*/
 
 .booking {
-  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../images/imgTel6.webp) center center no-repeat;
+  background: url(../images/Banner-Recargas.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .color-recarga{
   background: #3a7bd5;  
-  background: -webkit-linear-gradient(to bottom, #3a6073, #3a7bd5);  
-  background: linear-gradient(to bottom, #3a6073, #3a7bd5); 
+  background: -webkit-linear-gradient(to bottom, #021a48, #0842a2);  
+  background: linear-gradient(to bottom, #021a48, #0842a2); 
   opacity: 0.8;
 
   /* background: #0F2027; 
@@ -236,7 +236,21 @@ body {
     background: transparent!important;
     border: 1px solid #2d5a8d!important;
 }
+.btn-pg{
+  background-color: #005cff!important;
+  border-color: #005cff!important;
+}
+.mt-recarga{
+  margin-top: 13rem;
+}
+.color-tl{
+  color: #00488f!important;
+}
 
+.booking-velocidad {
+  background: url(../images/Banner-velocidad.jpg) center center no-repeat;
+  background-size: cover;
+}
 /** BARRA TIPO APP EN RESPONSIVE**/
 /* .tabbar {
   grid-area: tabbar;
@@ -440,6 +454,18 @@ button.close {
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
 }
+.ft-text{
+  font-size: 3.2rem!important;
+}
+
+/* #canvas {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
+} */
+
 
 /** FINAL MODAL CONEKTA**/
 

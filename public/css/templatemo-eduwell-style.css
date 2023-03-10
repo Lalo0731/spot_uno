@@ -283,7 +283,7 @@ header
   transition: all .5s ease 0s;
   /* filter: hue-rotate(169deg); */
   /* filter: hue-rotate(218deg); */
-  opacity: 0.8;
+  /* opacity: 0.8; */
   position: fixed;
 }
 

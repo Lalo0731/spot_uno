@@ -96,6 +96,23 @@
   </div>
 </section>
 
+<section class="pricing bg-shape mt-0">
+  <div class="container-fluid bg-secondary booking-velocidad mb-1 mt-0 wow fadeInUp" data-wow-delay="0.1s">
+    {{--  <canvas id="canvas"></canvas>  --}}
+      <div class="container pbRecarga">
+          <div class="row gx-5">
+              <div class="col-lg-5 pt-5 ">
+                  <div class="py-5 mt-recarga">
+                      <h1 class="text-white color-tl mb-2 text-start fw-bold display-4 ft-text">Disfruta de navegar</h1>
+                      <h1 class="text-white color-tl mb-2 text-start fw-bold display-4 ft-text">Con la mejor</h1>
+                      <h1 class="text-white color-tl text-start fw-bold display-4 ft-text">Velocidad</h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
 <section class="testimonials" id="testimonials">
     <div class="container">
       <div class="row">
