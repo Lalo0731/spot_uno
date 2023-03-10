@@ -56,8 +56,8 @@ https://templatemo.com/tm-573-eduwell
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
                         <li class="{{(request () -> is ('/')) ? 'btn-enalce': ''}}"><a href="/" class="h-color {{(request () -> is ('/')) ? 'active': ''}}">Inicio</a></li>
-                        <li class="{{(request () -> is ('recarga')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('recarga')!!}" class="h-color {{(request () -> is ('recarga')) ? 'active': ''}}">Recarga</a></li>
-                        <li class="{{(request () -> is ('planes')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('planes')!!}" class="h-color {{(request () -> is ('planes')) ? 'active': ''}}">Planes</a></li>
+                        <li class="{{(request () -> is ('recarga')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('recarga')!!}" class="h-color {{(request () -> is ('recarga')) ? 'active': ''}}">Recargas</a></li>
+                        <li class="{{(request () -> is ('planes')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('planes')!!}" class="h-color {{(request () -> is ('planes')) ? 'active': ''}}">Paquetes</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -86,9 +86,9 @@ https://templatemo.com/tm-573-eduwell
             <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Enlaces</h2>
             <hr class="hr-enlaces">
             <ul class="list-unstyled">
-                <li><a href="https://altcel2.com/my-conecta" class="py-2 d-block text-white">Inicio</a></li>
-                <li><a href="https://altcel2.com" class="py-2 d-block text-white">Paquetes</a></li>
-                <li><a href="https://altcel2.com/contact" class="py-2 d-block text-white">Recarga</a></li>
+                <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white">Inicio</a></li>
+                <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white">Paquetes</a></li>
+                <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white">Recargas</a></li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
