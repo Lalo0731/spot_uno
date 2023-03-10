@@ -186,6 +186,15 @@ body {
 .rayo{
   margin-top: -6rem;
 }
+.tarjeta-paquete{
+  margin-left: 6rem; 
+  margin-bottom: -1rem;
+}
+.mes-paquete{
+  margin-top: 2.5rem; 
+  margin-left: -13rem; 
+  margin-bottom: -1rem;
+}
 .color-basico{
   background: #074c8d;
   background: -webkit-linear-gradient(to left, #074c8d, #074c8de6);

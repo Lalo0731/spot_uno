@@ -592,6 +592,13 @@ header
   .mt5{
     margin-top: 5rem;
   }
+  .tarjeta-paquete{
+    margin-left: 0rem!important;
+  }
+  .mes-paquete{
+    margin-top: 3.5rem!important;
+    margin-left: -10.5rem!important;
+  }
 
   .iconos-informacion {
     display: grid;

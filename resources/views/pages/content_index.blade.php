@@ -176,10 +176,10 @@
 
 
               <div class="price color-basico d-flex flex-row">
-                  <div class="col-sm" style="margin-left: 6rem!important; margin-bottom: -1rem;">
+                  <div class="col-sm tarjeta-paquete">
                     <img src="{{asset('images/280.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
                   </div>
-                  <div class="col-sm" style="margin-top: 2.5rem; margin-left: -13rem; margin-bottom: -1rem;">
+                  <div class="col-sm mes-paquete">
                     <p class="color-priceB animate__animated animate__heartBeat animate__infinite">/ Mes</p>
                   </div> 
               </div>
@@ -204,10 +204,10 @@
               </div>
 
               <div class="price color-ideal d-flex flex-row">
-                <div class="col-sm" style="margin-left: 6rem!important; margin-bottom: -1rem;">
+                <div class="col-sm tarjeta-paquete">
                   <img src="{{asset('images/320.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
                 </div>
-                <div class="col-sm" style="margin-top: 2.5rem; margin-left: -13rem; margin-bottom: -1rem;">
+                <div class="col-sm mes-paquete">
                   <p class="color-priceB animate__animated animate__heartBeat animate__infinite">/ Mes</p>
                 </div> 
               </div>
@@ -235,10 +235,10 @@
               </div>
 
               <div class="price color-plus d-flex flex-row">
-                <div class="col-sm" style="margin-left: 6rem!important; margin-bottom: -1rem;">
+                <div class="col-sm tarjeta-paquete">
                   <img src="{{asset('images/360.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
                 </div>
-                <div class="col-sm" style="margin-top: 2.5rem; margin-left: -13rem; margin-bottom: -1rem;">
+                <div class="col-sm mes-paquete">
                   <p class="color-priceB animate__animated animate__heartBeat animate__infinite">/ Mes</p>
                 </div> 
               </div>
