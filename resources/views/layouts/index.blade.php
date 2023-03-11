@@ -105,16 +105,11 @@ https://templatemo.com/tm-573-eduwell
               <div class="col-12 col-sm-10">
                 <textarea class="form-control mt-3 inputContacto" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
               </div>
+              <div class="col-12 col-sm-6 mt-3">
+                <button class="btn btn-secondary w-100 py-3 btn-form" type="button" id="formEnviar">Enviar</button>
+            </div>
             </div>
           </div>
-
-          {{--  <ul class="social-icons col">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-rss"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-          </ul>  --}}
 
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
             <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Contacto</h2>

@@ -13,7 +13,7 @@
         <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="5000">
-        <img src="{{asset('images/imgtel2.jpg')}}" class="d-block w-100" alt="...">
+        <img src="{{asset('images/Banner-Recargas.jpg')}}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="4000">
         <img src="{{asset('images/imgTel5.jpeg')}}" class="d-block w-100" alt="...">

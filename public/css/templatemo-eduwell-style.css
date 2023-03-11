@@ -584,7 +584,7 @@ header
     padding: 0rem 0rem 0rem 0rem!important;
   }
   .img-wifi-respon{
-    margin-top: 3rem;
+    margin-top: -4rem;
   }
   .img-wifi {
     width: 300%!important;
@@ -598,6 +598,14 @@ header
   .mes-paquete{
     margin-top: 3.5rem!important;
     margin-left: -10.5rem!important;
+  }
+  .form-recharge{
+    width: auto!important; 
+    margin-top: 0!important;
+    height: 77% !important;
+  }
+  .texto-form{
+    margin-top: 5rem;
   }
 
   .iconos-informacion {

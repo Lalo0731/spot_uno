@@ -12,8 +12,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="color-recarga h-50 d-flex flex-column justify-content-center text-center p-5 wow zoomIn mt-8 border-radius" data-wow-delay="0.6s" style="width: 115%; margin-top: 18rem; padding: 4rem!important;">
-                        <h1 class="text-white mb-4">Fácil y Rápido</h1>
+                    <div class="color-recarga h-50 d-flex flex-column justify-content-center text-center p-5 wow zoomIn mt-8 border-radius form-recharge" data-wow-delay="0.6s">
+                        <h1 class="text-white mb-4 texto-form">Fácil y Rápido</h1>
                         <h3 class="text-white mb-4 h5">Ingresa tus datos y recarga en línea, evita las molestas filas y hazlo todo desde la comidad de tu casa</h3>
                         <form action="{{route('recharges')}}" method="POST" id="formPago">
                             <div class="row g-3">
@@ -74,6 +74,23 @@
             <button type="button" class="btn btn-outline-secondary btn-border">Ver paquetes</button>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="m-informacion">
+    <div class="d-flex justify-content-lg-center">
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Aviso de privacidad/</a>
+      </div>
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Terminos y condiciones/</a>
+      </div>
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Cobertura/</a>
+      </div>
+      <div class="p-2">
+        <a class="h6 text-uppercase nav-informacion">Legales</a>
       </div>
     </div>
   </section>

@@ -226,6 +226,11 @@ body {
   width: 80%;
   margin: auto;
 }
+.form-recharge{
+  width: 115%; 
+  margin-top: 18rem; 
+  padding: 4rem!important;
+}
 .hr-enlaces{
   background-color: #ffffff;
   height: 0.2rem!important;
@@ -242,8 +247,8 @@ body {
   width: 50%!important;
 }
 .inputContacto{
-    background: transparent!important;
-    border: 1px solid #2d5a8d!important;
+    /* background: transparent!important; */
+    border: 1px solid #ffffff!important;
 }
 .btn-pg{
   background-color: #005cff!important;
@@ -261,7 +266,7 @@ body {
   background-size: cover;
 }
 .img-wifi{
-  width: 200%;
+  width: 100%;
 }
 
 .grid-wifi{
@@ -278,6 +283,15 @@ body {
 .nav-informacion:hover{
   color:#0141C5;
 }
+.btn-form{
+  background-color: #fff;
+  color: #6c757d;
+}
+.btn-form:hover{
+  background-color: #fff;
+  color: #6c757d;
+}
+
 /** BARRA TIPO APP EN RESPONSIVE**/
 /* .tabbar {
   grid-area: tabbar;
