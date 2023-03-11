@@ -106,7 +106,7 @@ https://templatemo.com/tm-573-eduwell
                 <textarea class="form-control mt-3 inputContacto" id="exampleFormControlTextarea1" rows="3" placeholder="Comentarios"></textarea>
               </div>
               <div class="col-12 col-sm-6 mt-3">
-                <button class="btn btn-secondary w-100 py-3 btn-form" type="button" id="formEnviar">Enviar</button>
+                <button class="btn btn-secondary w-100 btn-form" type="button" id="formEnviar">Enviar</button>
             </div>
             </div>
           </div>

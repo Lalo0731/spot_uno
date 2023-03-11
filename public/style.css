@@ -286,10 +286,56 @@ body {
 .btn-form{
   background-color: #fff;
   color: #6c757d;
+  text-transform:inherit!important;
 }
 .btn-form:hover{
   background-color: #fff;
   color: #6c757d;
+}
+.color-slogan{
+  color: #004a90;
+}
+.mt-14{
+  top: 14rem;
+}
+.pl-8{
+  padding-left: 8rem;
+}
+.br-radiu{
+  border-radius: 2rem;
+  font-size: 1rem!important;
+  text-transform: inherit!important;
+  background-color: #0148A3!important;
+  border-color: #0148A3!important;
+}
+.br-radiu:hover{
+  background-color: transparent!important;
+  border-color: #fff!important;
+}
+.vr-paquete{
+  background-color: transparent!important;
+  border-color: #fff!important;
+}
+.vr-paquete:hover{
+  background-color: #0148A3!important;
+  border-color: #0148A3!important;
+}
+.btn-contratar{
+  background-color: #003cea;
+  transform: skew(-22deg);
+}
+.span-contratar{
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  transform: skew(22deg);
+}
+.btn-contratar {
+	box-shadow: 0 0 0 1px #003cea inset, 0 0 0 2px rgba(255, 255, 255, 40) inset, 0 5px 2px 0 #034c89, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #003cea;
+}
+.w-40{
+  width: 40%;
 }
 
 /** BARRA TIPO APP EN RESPONSIVE**/
@@ -496,7 +542,10 @@ button.close {
   opacity: .5;
 }
 .ft-text{
-  font-size: 3.2rem!important;
+  font-size: 3rem!important;
+}
+.bg-velocidad{
+  background-color: #ffc700;
 }
 
 /* #canvas {

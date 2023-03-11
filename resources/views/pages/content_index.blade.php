@@ -9,7 +9,21 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner mt5">
-      <div class="carousel-item active" data-bs-interval="4000">
+      <div class="carousel-item active position-relative d-inline-block" data-bs-interval="4000">
+        <div class="position-absolute mt-14 pl-8">
+          <h1 class="fw-bold color-slogan col-6">Contrata y disfruta de los paquetes que tenemos para ti</h1>
+          <p class="mt-4 text-white h4 hmd col-6">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="fw-bold text-white h3 hmds">¡SpotUno te ofrece solo lo mejor!</span>
+          <div class="d-flex flex-row">
+            <div class="mt-5 p-3 d-none d-sm-block">
+              <a href="#" class="btn btn-primary btn-lg active br-radiu" role="button" aria-pressed="true">¡Contratar ahora!</a>
+            </div>
+            <div class="mt-5 p-3 d-none d-sm-block">
+              <a href="#" class="btn btn-primary btn-lg active br-radiu vr-paquete" role="button" aria-pressed="true">Ver paquetes</a>
+            </div>
+          </div>
+        </div>
+        
         <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="5000">
@@ -103,9 +117,14 @@
           <div class="row gx-5">
               <div class="col-lg-5 pt-5 ">
                   <div class="py-5 mt-recarga">
-                      <h1 class="text-white color-tl mb-2 text-start fw-bold display-4 ft-text">Disfruta de navegar</h1>
-                      <h1 class="text-white color-tl mb-2 text-start fw-bold display-4 ft-text">Con la mejor</h1>
-                      <h1 class="text-white color-tl text-start fw-bold display-4 ft-text">Velocidad</h1>
+                    <div>
+                      <h1 class="text-white color-tl mb-2 text-start fw-bold display-4 ft-text col-12 ">
+                        Disfruta de navegar con la mejor <span class="fw-bolder bg-velocidad">velocidad</span>
+                      </h1>
+                    </div>
+                    <div class="ms-4">
+                      <button class="btn btn-contratar mt-4 w-40 text-center" type="button"><span class="span-contratar">Contratar</span> </button>
+                    </div>
                   </div>
               </div>
           </div>
