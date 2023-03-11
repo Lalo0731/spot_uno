@@ -177,22 +177,6 @@
               <div class="title">
                 <h3 class="texto-principal">Basico</h3>
               </div>
-              {{--  <div class="price color-basico">
-                <div class="price color-basico d-flex flex-row">
-                  <div class="col-sm" style="    
-                      margin-top: 2.5rem;
-                      margin-left: -14rem;
-                      margin-bottom: -1rem;">
-                    <img src="{{asset('images/282.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
-                  </div>
-                  <div class="col-sm" style="    margin-top: 2.5rem;
-                  margin-left: -14rem;
-                  margin-bottom: -1rem;">
-                    <p class="color-priceB animate__animated animate__heartBeat animate__infinite" style="font-size: 24px;">/ Mes</span></p>
-                  </div>
-                </div>
-              </div>  --}}
-
 
               <div class="price color-basico d-flex flex-row">
                   <div class="col-sm tarjeta-paquete">
