@@ -548,13 +548,15 @@ button.close {
   background-color: #ffc700;
 }
 
-/* #canvas {
+#canvas {
 	position: absolute;
 	display: block;
-	top: 0;
-	left: 0;
-	z-index: -1;
-} */
+	/* top: 0; */
+	left: 11rem;
+  margin-top: 9rem; 
+  margin-left: 5rem
+	/* z-index: -1; */
+} 
 
 
 /** FINAL MODAL CONEKTA**/

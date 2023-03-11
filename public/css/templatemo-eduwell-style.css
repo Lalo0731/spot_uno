@@ -629,6 +629,9 @@ header
   .hmds{
     font-size: 1rem;
   }
+  #canvas {
+    left: -11rem!important;
+  } 
 
   /**LALO**/
 
@@ -1503,7 +1506,7 @@ section.our-team .naccs .menu div span {
 }
 
 section.our-team .naccs .menu div.active h4 {
-  color: #dc8cdb;
+  color: #0a4f97;
 }
 
 section.our-team ul.nacc {

@@ -112,10 +112,12 @@
 
 <section class="pricing bg-shape mt-0">
   <div class="container-fluid bg-secondary booking-velocidad mb-1 mt-0 wow fadeInUp" data-wow-delay="0.1s">
-    {{--  <canvas id="canvas"></canvas>  --}}
       <div class="container pbRecarga">
           <div class="row gx-5">
               <div class="col-lg-5 pt-5 ">
+                  <div>
+                    <canvas id="canvas"></canvas>
+                  </div>
                   <div class="py-5 mt-recarga">
                     <div>
                       <h1 class="text-white color-tl mb-2 text-start fw-bold display-4 ft-text col-12 ">
