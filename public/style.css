@@ -7,6 +7,41 @@ body {
 }
 
 /*## ESTILOS DE LALO INICIO##*/
+.style-text{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+.w100 {
+  font-weight: 100;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+.w500 {
+  font-weight: 500;
+}
+.w600 {
+  font-weight: 600;
+}
+.w700 {
+  font-weight: 700;
+}
+.w700-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+.w800 {
+  font-weight: 800;
+}
+.w900 {
+  font-weight: 900;
+}
 
 .booking {
   background: url(../images/Banner-Recargas.jpg) center center no-repeat;
@@ -95,15 +130,13 @@ body {
 }
 
 .texto-principal{
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
     font-size: 2rem;
     color: #203A43;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .texto-planes{
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #195ee2;
   /* font-style: italic; */
 }
@@ -139,7 +172,6 @@ body {
 }
 .color-titulo{
   color: #2c4c88;
-  font-weight: bold;
 }
 .iconos-informacion {
   list-style: none;
@@ -152,7 +184,6 @@ body {
 }
 .color-texto{
   color: #2c4c88;
-  font-weight: bold;
 }
 .iconos-informacion__texto {
   margin: 0 0 0 1rem;
@@ -295,6 +326,7 @@ body {
 .color-slogan{
   color: #004a90;
 }
+
 .mt-14{
   top: 14rem;
 }
@@ -336,6 +368,9 @@ body {
 }
 .w-40{
   width: 40%;
+}
+.color-text-planes{
+  color: #0c498e;
 }
 
 /** BARRA TIPO APP EN RESPONSIVE**/
@@ -967,15 +1002,27 @@ a:hover {
 
 .section-title h2 {
   font-size: 48px;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 500;
+  color: #2c4c88;
+  /* font-family: "Josefin Sans", sans-serif;
+  font-weight: 500; */
   margin-bottom: 30px;
 }
 
 .section-heading h2 {
   font-size: 48px;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 500;
+  /* font-family: "Josefin Sans", sans-serif;
+  font-weight: 500; */
+  margin-bottom: 30px;
+}
+.numero-cliente {
+  font-size: 48px;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 800!important;
+  color: #2c4c88;
+  /* font-family: "Josefin Sans", sans-serif;
+  font-weight: 500; */
   margin-bottom: 30px;
 }
 
@@ -1812,7 +1859,7 @@ a:hover {
 
 .pricing-table .price p {
   font-size: 36px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #7d71d3;
 }
 

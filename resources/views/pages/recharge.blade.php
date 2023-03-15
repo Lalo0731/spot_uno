@@ -6,15 +6,15 @@
             <div class="row gx-5">
                 <div class="col-lg-5 pt-5 ">
                     <div class="py-5 mt-recarga">
-                        <h1 class="text-white color-tl mb-2 text-center fw-bold display-4" style="background-color: yellow;font-size: 3.3rem;}">¡Realiza tu recarga!</h1>
-                        <h1 class="text-white color-tl mb-4 text-center fw-bold display-4">Es fácil y seguro</h1>
+                        <h1 class="text-white color-tl mb-2 text-center display-4 style-text w900" style="background-color: yellow;font-size: 3rem;}">¡Realiza tu recarga!</h1>
+                        <h1 class="text-white color-tl mb-4 text-center display-4 style-text w900" style="font-size: 3rem;">Es fácil y seguro</h1>
                         {{--  <img src="{{asset('images/main-slide-img1.png')}}" alt="EduWell Template" >  --}}
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="color-recarga h-50 d-flex flex-column justify-content-center text-center p-5 wow zoomIn mt-8 border-radius form-recharge" data-wow-delay="0.6s">
-                        <h1 class="text-white mb-4 texto-form">Fácil y Rápido</h1>
-                        <h3 class="text-white mb-4 h5">Ingresa tus datos y recarga en línea, evita las molestas filas y hazlo todo desde la comidad de tu casa</h3>
+                        <h1 class="text-white mb-4 texto-form style-text w600">Fácil y Rápido</h1>
+                        <h3 class="text-white mb-4 h6 style-text w600 text-uppercase">Ingresa tus datos y recarga en línea, evita las molestas filas y hazlo todo desde la comidad de tu casa</h3>
                         <form action="{{route('recharges')}}" method="POST" id="formPago">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
@@ -61,17 +61,17 @@
     <div>  {{--  class="container"  --}}
       <div class="row">
         <div class="col color-apart p-3">
-          <h3 class="text-white mb-3 text-center p-3">¿Aún no eres parte de <spa class="fw-bold">SpotUno</spa>?</h3>
-          <h5 class="text-white text-center">¿Qué esperas? adquiérelo y disfruta de todos los beneficios</h5>
+          <h3 class="text-white mb-3 text-center p-3 style-text w400">¿Aún no eres parte de <spa class="style-text w800">SpotUno</spa>?</h3>
+          <h5 class="text-white text-center style-text w400">¿Qué esperas? adquiérelo y disfruta de todos los beneficios</h5>
           <div class="col text-center p-3">
-            <button type="button" class="btn btn-outline-secondary btn-border">¡Solicítalo ya!</button>
+            <button type="button" class="btn btn-outline-secondary btn-border style-text w400">¡Solicítalo ya!</button>
           </div>
         </div>
         <div class="col color-paquet p-3">
-          <h3 class="text-white mb-3 text-center p-3">Disfruta de todo <span class="fw-bold">nuestros paquetes</span></h3>
-          <h5 class="text-white text-center">Queremos ofrecerte solo lo mejor, seleccina, compra y disfruta</h5>
+          <h3 class="text-white mb-3 text-center p-3 style-text w400">Disfruta de todo <span class="style-text w800">nuestros paquetes</span></h3>
+          <h5 class="text-white text-center style-text w400">Queremos ofrecerte solo lo mejor, seleccina, compra y disfruta</h5>
           <div class="col text-center p-3">
-            <button type="button" class="btn btn-outline-secondary btn-border">Ver paquetes</button>
+            <button type="button" class="btn btn-outline-secondary btn-border style-text w400">Ver paquetes</button>
           </div>
         </div>
       </div>
@@ -81,16 +81,16 @@
   <section class="m-informacion">
     <div class="d-flex justify-content-lg-center">
       <div class="p-2">
-        <a class="h6 text-uppercase nav-informacion">Aviso de privacidad/</a>
+        <a class="h6 text-uppercase nav-informacion style-text w600">Aviso de privacidad/</a>
       </div>
       <div class="p-2">
-        <a class="h6 text-uppercase nav-informacion">Terminos y condiciones/</a>
+        <a class="h6 text-uppercase nav-informacion style-text w600">Terminos y condiciones/</a>
       </div>
       <div class="p-2">
-        <a class="h6 text-uppercase nav-informacion">Cobertura/</a>
+        <a class="h6 text-uppercase nav-informacion style-text w600">Cobertura/</a>
       </div>
       <div class="p-2">
-        <a class="h6 text-uppercase nav-informacion">Legales</a>
+        <a class="h6 text-uppercase nav-informacion style-text w600">Legales</a>
       </div>
     </div>
   </section>

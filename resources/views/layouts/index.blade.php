@@ -18,6 +18,16 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    {{--  Tipografía Montserrat  --}}
+    {{--  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">  --}}
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,700&display=swap" rel="stylesheet">
+
     <title>SpotUno</title>
 
     <!-- Bootstrap core CSS -->
@@ -83,20 +93,20 @@ https://templatemo.com/tm-573-eduwell
             </a>
           </div>
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
-            <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Enlaces</h2>
+            <h2 class="footer-heading text-uppercase h4 text-white style-text w700">Enlaces</h2>
             <hr class="hr-enlaces">
             <ul class="list-unstyled">
-                <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white">Inicio</a></li>
-                <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white">Paquetes</a></li>
-                <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white">Recargas</a></li>
+                <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white style-text w600">Inicio</a></li>
+                <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600">Paquetes</a></li>
+                <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600">Recargas</a></li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
-            <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Contáctanos</h2>
+            <h2 class="footer-heading text-uppercase fw-bold h4 text-white style-text w700">Contáctanos</h2>
             <hr class="hr-enlaces">
             <ul class="list-unstyled">
-                <li><p class="text-white">¿Tienes alguna duda?</p></li>
-                <li><p class="text-white">Envíanos un e-mail</p></li>
+                <li><p class="text-white style-text w600">¿Tienes alguna duda?</p></li>
+                <li><p class="text-white style-text w600">Envíanos un e-mail</p></li>
             </ul>
             <div>
               <div class="col-12 col-sm-10">
@@ -112,12 +122,12 @@ https://templatemo.com/tm-573-eduwell
           </div>
 
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
-            <h2 class="footer-heading text-uppercase fw-bold h4 text-white">Contacto</h2>
+            <h2 class="footer-heading text-uppercase fw-bold h4 text-white style-text w400">Contacto</h2>
             <hr class="hr-enlaces">
             <ul class="list-unstyled">
-                <li><p class="text-white">C. José María Bear Alva 2514 col.</p></li>
-                <li><p class="text-white">Barrio de Londres</p></li>
-                <li><p class="text-white">Chihuahua, chih. C.P. 31060</p></li>
+                <li><p class="text-white style-text w600">C. José María Bear Alva 2514 col.</p></li>
+                <li><p class="text-white style-text w600">Barrio de Londres</p></li>
+                <li><p class="text-white style-text w600">Chihuahua, chih. C.P. 31060</p></li>
             </ul>
           </div>
         </div>

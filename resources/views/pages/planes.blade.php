@@ -6,8 +6,8 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title mb-4">
-            <h2 class="mb-3">Los mejores <span>planes</span> que tenemos para ti</h2>
-            <p>Ven y descubre las mejores promociones, precios y planes.</p>
+            <h2 class="mb-3 style-text w900">Los mejores <span>planes</span> que tenemos para ti</h2>
+            <p class="style-text w800">Ven y descubre las mejores promociones, precios y planes.</p>
           </div>
         </div>
       </div>

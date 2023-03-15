@@ -232,13 +232,13 @@ section {
   margin-top: 10px;
   line-height: 40px;
   font-size: 28px;
-  font-weight: 900;
-  text-transform: capitalize;
+  /* font-weight: 900; */
+  /* text-transform: capitalize; */
   color: #111;
 }
 
 .section-heading h4 em {
-  font-style: normal;
+  /* font-style: normal; */
   color: #144A82;
 }
 
@@ -1127,7 +1127,7 @@ section.testimonials {
 
 .testimonials .item p {
   font-size: 16px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 .testimonials .item h4 {
