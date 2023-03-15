@@ -373,42 +373,6 @@ body {
   color: #0c498e;
 }
 
-/** BARRA TIPO APP EN RESPONSIVE**/
-/* .tabbar {
-  grid-area: tabbar;
-  display: flex;
-  width: 100%;
-  background-color: #fff;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  bottom: 0;
-  z-index: 1;
-}
-
-.tabbar > div {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-}
-
-.tabbar > div > a {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--small-description-size);
-  color: var(--text-color);
-}
-
-.tabbar > div > a img {
-  height: 2rem;
-  object-fit: contain;
-} */
-/** BARRA TIPO APP EN RESPONSIVE**/
-
 @media (max-width: 767px){
   .formulario_pagar{
     flex-direction: column;

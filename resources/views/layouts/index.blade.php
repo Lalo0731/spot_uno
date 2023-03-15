@@ -142,43 +142,42 @@ https://templatemo.com/tm-573-eduwell
   </footer>
 
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
-  {{--  <nav class="tabbar">
+  <nav class="tabbar d-xl-none">
     <div>
-      <a href="https://clinicadefisioterapiacdmx.com">
+      <a href="#">
         <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/home.svg" alt="Up Therapy">
-        Inicio
+        <span class="style-text w600 tbbar-texto">¡Contratar ahora!</span>
       </a>
     </div>
   
     <div>
-      <a class="btn_especialidades" href="javascript:void(0)">
+      <a class="btn_especialidades" href="#">
         <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/star.svg" alt="Up Therapy">
-        Especialidades
+        <span class="style-text w600 tbbar-texto">Ver paquetes</span>
       </a>
     </div>
   
     <div class="whatsapp">
-      <a target="_blank" href="https://wa.me/525547576392?text=">
-        <div>
-          <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/whatsapp.svg" alt="Up Therapy">
-        </div>
+      <a target="_blank" href="#">
+          <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/home.svg" alt="Up Therapy">
+          <span class="style-text w600 tbbar-texto">Inicio</span>
       </a>
     </div>
   
     <div>
-      <a class="btn_inovaciones" href="javascript:void(0)">
+      <a class="btn_inovaciones" href="#">
         <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/led.svg" alt="Up Therapy">
-        Innovaciones
+        <span class="style-text w600 tbbar-texto">Recargas</span>
       </a>
     </div>
   
     <div>
-      <a target="_blank" href="https://www.doctoralia.com.mx/clinicas/up-therapy-mx?utm_source=widget-clinic-34368&amp;utm_medium=link&amp;widget=1&amp;fid=34368">
+      <a target="_blank" href="#">
         <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/calendar.svg" alt="Up Therapy">
-        Calendario
+        <span class="style-text w600 tbbar-texto">Paquetes</span>
       </a>
     </div>
-  </nav>  --}}
+  </nav>
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
   
   <!-- Scripts -->
