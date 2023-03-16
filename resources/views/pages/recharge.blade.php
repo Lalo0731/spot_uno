@@ -6,7 +6,7 @@
             <div class="row gx-5">
                 <div class="col-lg-5 pt-5 ">
                     <div class="py-5 mt-recarga">
-                        <h1 class="text-white color-tl mb-2 text-center display-4 style-text w900" style="background-color: yellow;font-size: 3rem;}">¡Realiza tu recarga!</h1>
+                        <h1 class="text-white color-tl mb-2 text-center display-4 style-text w900" style="background-color: yellow;font-size: 3rem;}">¡Paga tu mensualidad!</h1>
                         <h1 class="text-white color-tl mb-4 text-center display-4 style-text w900" style="font-size: 3rem;">Es fácil y seguro</h1>
                         {{--  <img src="{{asset('images/main-slide-img1.png')}}" alt="EduWell Template" >  --}}
                     </div>
@@ -14,7 +14,7 @@
                 <div class="col-lg-6">
                     <div class="color-recarga h-50 d-flex flex-column justify-content-center text-center p-5 wow zoomIn mt-8 border-radius form-recharge" data-wow-delay="0.6s">
                         <h1 class="text-white mb-4 texto-form style-text w600">Fácil y Rápido</h1>
-                        <h3 class="text-white mb-4 h6 style-text w600 text-uppercase">Ingresa tus datos y recarga en línea, evita las molestas filas y hazlo todo desde la comidad de tu casa</h3>
+                        <h3 class="text-white mb-4 h6 style-text w600 text-uppercase">Ingresa tus datos y paga en línea, evita las molestas filas y hazlo todo desde la comidad de tu casa</h3>
                         <form action="{{route('recharges')}}" method="POST" id="formPago">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">

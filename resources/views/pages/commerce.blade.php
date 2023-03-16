@@ -7,6 +7,11 @@
         <div class="section-heading">
           <h2 class="numero-cliente">Tu número {{$numeroTelefono}}</h2>
           <h4 class="style-text w600">Completa tu pago de {{$montoRecarga}} <br><em class="style-text w700-italic">Elige donde quieres recargar:</em></h4>
+          <h5 class="mt-2 style-text w600 color-text-planes">También puedes pagar por medio de transferencia:</h5>
+          <h5 class="mt-1 style-text w600">SPOT Uno SA de CV</h5>
+          <h5 class="mt-1 style-text w600">BBVA 0017 8030 0366 1376</h5>
+          <h5 class="mt-1 style-text w600">Clabe: 01215000 1123820321</h5>
+          <h5 class="mt-1 style-text w600 mt-3">Con código PAYNET (Registro automático) ¡Solicítalo!</h5>
         </div>
       </div>
       <div class="col-lg-10 offset-lg-1">

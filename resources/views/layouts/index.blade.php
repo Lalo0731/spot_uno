@@ -16,14 +16,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />  --}}
 
     {{--  Tipografía Montserrat  --}}
-    {{--  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">  --}}
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,700&display=swap" rel="stylesheet">
@@ -33,6 +28,8 @@
     <!-- Bootstrap core CSS -->
     <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
+    {{--  font-awesome  --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="{{asset('css/fontawesome.css')}}">
@@ -65,9 +62,9 @@ https://templatemo.com/tm-573-eduwell
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li class="{{(request () -> is ('/')) ? 'btn-enalce': ''}}"><a href="/" class="h-color {{(request () -> is ('/')) ? 'active': ''}}">Inicio</a></li>
-                        <li class="{{(request () -> is ('recarga')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('recarga')!!}" class="h-color {{(request () -> is ('recarga')) ? 'active': ''}}">Recargas</a></li>
-                        <li class="{{(request () -> is ('planes')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('planes')!!}" class="h-color {{(request () -> is ('planes')) ? 'active': ''}}">Paquetes</a></li>
+                        <li class="{{(request () -> is ('/')) ? 'btn-enalce': ''}}"><a href="/" class="h-color {{(request () -> is ('/')) ? 'active': ''}} style-text">Inicio</a></li>
+                        <li class="{{(request () -> is ('recarga')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('recarga')!!}" class="h-color {{(request () -> is ('recarga')) ? 'active': ''}} style-text">Pago mensualidad</a></li>
+                        <li class="{{(request () -> is ('planes')) ? 'btn-enalce': ''}}"><a href="{!! URL::to('planes')!!}" class="h-color {{(request () -> is ('planes')) ? 'active': ''}} style-text">Paquetes</a></li>
                     </ul>
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -88,9 +85,20 @@ https://templatemo.com/tm-573-eduwell
         <div class="col-lg-12">
           <div class="row">
           <div class="col pt-5">
-            <a href="/" class="logo respont-logo">
-              <img src="{{asset('images/logo.png')}}" alt="EduWell Template" class="img-logoFooter">
-            </a>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/" class="logo respont-logo">
+                  <img src="{{asset('images/logo.png')}}" alt="EduWell Template" class="img-logoFooter">
+                </a>
+              </li>
+              <li class="mt-5">
+                {{--  <h2 class="footer-heading text-uppercase h4 text-white style-text w700">Redes Sociales</h2>
+                <hr class="hr-enlaces">  --}}
+                <a href="https://www.facebook.com/spotunochihuahua" target="_blank">
+                  <i class="fa-brands fa-facebook h2 text-white"></i>            
+                </a>
+              </li>
+            </ul>
           </div>
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
             <h2 class="footer-heading text-uppercase h4 text-white style-text w700">Enlaces</h2>
@@ -98,7 +106,7 @@ https://templatemo.com/tm-573-eduwell
             <ul class="list-unstyled">
                 <li><a href="{!! URL::to('/')!!}" class="py-2 d-block text-white style-text w600">Inicio</a></li>
                 <li><a href="{!! URL::to('planes')!!}" class="py-2 d-block text-white style-text w600">Paquetes</a></li>
-                <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600">Recargas</a></li>
+                <li><a href="{!! URL::to('recarga')!!}" class="py-2 d-block text-white style-text w600">Pago mensualidad</a></li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
@@ -124,10 +132,14 @@ https://templatemo.com/tm-573-eduwell
           <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0 col p-4">
             <h2 class="footer-heading text-uppercase fw-bold h4 text-white style-text w400">Contacto</h2>
             <hr class="hr-enlaces">
+            <ul class="list-unstyled my-4">
+                <li><p class="text-white style-text w600"><i class="fa-solid fa-map-location p-2"></i>C. José María Bear Alva 2514 col.</p></li>
+                <li><p class="text-white style-text w600 ms-4">Barrio de Londres</p></li>
+                <li><p class="text-white style-text w600 ms-4">Chihuahua, Chihuahua. C.P. 31060</p></li>
+            </ul>
             <ul class="list-unstyled">
-                <li><p class="text-white style-text w600">C. José María Bear Alva 2514 col.</p></li>
-                <li><p class="text-white style-text w600">Barrio de Londres</p></li>
-                <li><p class="text-white style-text w600">Chihuahua, chih. C.P. 31060</p></li>
+                <li><p class="text-white style-text w600"><i class="fa-solid fa-mobile-screen-button p-2"></i>614 399 00 92</p></li>
+                <li><p class="text-white style-text w600"><i class="fa-solid fa-envelope p-2"></i>contrataciones@spotuno.mx</p></li>
             </ul>
           </div>
         </div>
@@ -142,7 +154,7 @@ https://templatemo.com/tm-573-eduwell
   </footer>
 
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
-  <nav class="tabbar d-xl-none">
+  {{--  <nav class="tabbar d-xl-none">
     <div>
       <a href="#">
         <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/home.svg" alt="Up Therapy">
@@ -158,26 +170,26 @@ https://templatemo.com/tm-573-eduwell
     </div>
   
     <div class="whatsapp">
-      <a target="_blank" href="#">
+      <a target="_blank" href="/">
           <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/home.svg" alt="Up Therapy">
           <span class="style-text w600 tbbar-texto">Inicio</span>
       </a>
     </div>
   
     <div>
-      <a class="btn_inovaciones" href="#">
+      <a class="btn_inovaciones" href="{!! URL::to('recarga')!!}">
         <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/led.svg" alt="Up Therapy">
         <span class="style-text w600 tbbar-texto">Recargas</span>
       </a>
     </div>
   
     <div>
-      <a target="_blank" href="#">
+      <a target="_blank" href="{!! URL::to('planes')!!}">
         <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/calendar.svg" alt="Up Therapy">
         <span class="style-text w600 tbbar-texto">Paquetes</span>
       </a>
     </div>
-  </nav>
+  </nav>  --}}
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
   
   <!-- Scripts -->

@@ -385,6 +385,17 @@ body {
   }
 }
 
+@media (max-width: 1399px){
+  .header-area .main-nav .nav {
+    margin-top: -64px;
+  }
+}
+
+/* header-area .main-nav .nav {
+  float: right;
+  margin-top: 35px;
+} */
+
 @media (min-width: 992px){
   .modal-conekta {
       max-width: 700px;
