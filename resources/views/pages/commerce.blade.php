@@ -1,5 +1,6 @@
 @extends('layouts.index')
 @section('content')
+<script src="https://js.stripe.com/v3/"></script>
 <section class="our-team mb-5">
   <div class="container">
     <div class="row">
@@ -41,7 +42,7 @@
                     <h4>FARMACIA DEL AHORRO</h4>
                     <!-- <span>CEO-FOUNDER</span> -->
                   </div>
-                  <div class="referenceSpot">
+                  <div class="stripeCard">
                     <img src="{{asset('images/tarjeta-debito.jpg')}}" alt="">
                     <h4>TAJETA DE CRÉDITO O DÉBITO</h4>
                     <!-- <span>CEO-FOUNDER</span> -->
@@ -215,6 +216,56 @@
   </div>
 </section>
 
+
+<div class="modal fade" id="stripePayment" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" >Pago con Tarjeta Vía Stripe</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class='col-md-12'>
+            <form action="{{url('paymentStripe')}}" method="post" id="payment-form">
+                @csrf
+                <div >
+                    <label for="card-element">
+                        Tarjeta de Crédito o Débito
+                    </label>
+                    <div id="card-element">
+                    <!-- A Stripe Element will be inserted here. -->
+                    </div>
+                    <!-- Used to display Element errors. -->
+                    <div id="card-errors" class="alert alert-danger mt-3 mb-3 d-none" role="alert"></div>
+                </div>
+
+                <input type="hidden" name="amount" id="STRIPE_amount" value="200">
+                {{-- <input type="hidden" name="offer_id" id="STRIPE_offer_id">
+                <input type="hidden" name="offerAltan" id="STRIPE_offerAltan">
+                <input type="hidden" name="rate_id" id="STRIPE_rate_id">
+                <input type="hidden" name="referencestype" id="STRIPE_referencestype">
+                <input type="hidden" name="number_id" id="STRIPE_number_id">
+                <input type="hidden" name="client_id" id="STRIPE_client_id">
+                <input type="hidden" name="pay_id" id="STRIPE_pay_id" value="0">
+                <input type="hidden" name="exists" id="STRIPE_exists">
+                <input type="hidden" name="pack_id" id="STRIPE_pack_id">
+                <input type="hidden" name="rate_name" id="STRIPE_data_rate_name">
+                <input type="hidden" name="number" id="STRIPE_number_to_recharge"> --}}
+                <!-- <input type="text" name="" id="STRIPE_number_to_recharge"> -->
+
+                <button class="btn btn-success mt-3" id="stripePagar">PAGAR</button>
+            </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
   $('.referenceSpot').click(function(){
     
@@ -371,6 +422,66 @@
   $('#closeModal').click( function(){
     $('#stub').modal('hide')
   })
+</script>
+
+<script>
+  $('.stripeCard').click(function() {
+    $('#stripePayment').modal('show');
+  })
+</script>
+
+<script>
+  var stripe = Stripe("pk_test_51LSOeLHo1IBUssicXykLFSmTFiGPSgAnyRNa0gIDm1kpOLM5sPhBvQVO1i6fM8bBFIeENiwa6Jmwnl4ZVVNpYYfC00gX1UKXkL");
+  var elements = stripe.elements();
+
+  var style = {
+      base: {
+          // Add your base input styles here. For example:
+          fontSize: '16px',
+          color: '#32325d',
+      },
+  };
+
+  // Create an instance of the card Element.
+  var card = elements.create('card', {style: style});
+
+  // Add an instance of the card Element into the `card-element` <div>.
+  card.mount('#card-element');
+
+  var form = document.getElementById('payment-form');
+
+  form.addEventListener('submit', function(event) {
+      event.preventDefault();
+      stripe.createToken(card).then(function(result) {
+          if (result.error) {
+          // Inform the customer that there was an error.
+          var errorElement = document.getElementById('card-errors');
+          $('#card-errors').removeClass('d-none');
+          errorElement.textContent = result.error.message;
+          } else {
+          // Send the token to your server.
+          stripeTokenHandler(result.token);
+          //Bloqueart boton de stripe
+          var btncompra = document.getElementById('stripePagar');
+          btncompra.disabled = true; 
+          }
+      });
+  });
+
+  function stripeTokenHandler(token) {
+      console.log("TOKEN: ",token);
+      // Insert the token ID into the form so it gets submitted to the server
+      var form = document.getElementById('payment-form');
+      var hiddenInput = document.createElement('input');
+      hiddenInput.setAttribute('type', 'hidden');
+      hiddenInput.setAttribute('name', 'stripeToken');
+      hiddenInput.setAttribute('value', token.id);
+      form.appendChild(hiddenInput);
+
+      // Submit the form
+      form.submit();
+  }
+
 </script>
 
 @endsection
