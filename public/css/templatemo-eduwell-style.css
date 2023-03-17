@@ -632,6 +632,9 @@ header
   #canvas {
     left: -11rem!important;
   } 
+  .pricing-table .price p {
+    font-size: 22px!important;
+  }
 
   /** BARRA TIPO APP EN RESPONSIVE**/
   /* .tabbar {

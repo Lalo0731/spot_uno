@@ -1833,7 +1833,7 @@ a:hover {
 }
 
 .pricing-table .price p {
-  font-size: 36px;
+  font-size: 26px;
   /* font-weight: bold; */
   color: #7d71d3;
 }
@@ -1863,6 +1863,7 @@ a:hover {
     display: none;
   }
 }
+
 
 .cta-download .content-block h2,
 .cta-download .content-block p {

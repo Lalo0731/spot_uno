@@ -174,8 +174,95 @@
           </div>
         </div>
       </div>
+      
+      <!-- <div class="d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 p-3">
+          <div class="pricing-table text-center feature_item font-color">
+            <div class="title">
+              <h3 class="texto-principal style-text w500">Básico</h3>
+            </div>
 
-      <div class="col-lg-12">
+            <div class="price color-basico d-flex flex-row">
+                <div class="col-sm tarjeta-paquete">
+                  <img src="{{asset('images/280.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
+                </div>
+                <div class="col-sm mes-paquete">
+                  <p class="color-priceB animate__animated animate__heartBeat animate__infinite style-text w400">/ Mes</p>
+                </div> 
+            </div>
+
+            <ul class="feature-list">
+              <li class="style-text w500">1 Mb Subida</li>
+              <li class="style-text w500">5 Mb Bajada</li>
+              <li class="style-text w500">Instalación GRATIS</li>
+              <li class="resticciones style-text w200">* aplican restricciones</li>
+              <hr class="hr-basico">
+            </ul>
+            <div class="action-button">
+              <a href="" class="btn btn-main-rounded btn-priceB style-text w800">¡Lo quiero!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 p-3">
+          <div class="pricing-table featured text-center font-color">
+            <div class="title">
+              <h3 class="texto-principal style-text w500">Ideal</h3>
+            </div>
+
+            <div class="price color-ideal d-flex flex-row">
+              <div class="col-sm tarjeta-paquete">
+                <img src="{{asset('images/320.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
+              </div>
+              <div class="col-sm mes-paquete">
+                <p class="color-priceB animate__animated animate__heartBeat animate__infinite style-text w400">/ Mes</p>
+              </div> 
+            </div>
+
+            <ul class="feature-list">
+              <li class="style-text w500">A2 Mb Subida</li>
+              <li class="style-text w500">10 Mb Bajada</li>
+              <li class="style-text w500">Instalación GRATIS</li>
+              <li class="resticciones style-text w200">* aplican restricciones</li>
+            </ul>
+            <hr class="hr-ideal">
+            <div class="action-button">
+              <a href="" class="btn btn-main-rounded btn-priceI style-text w800">¡Lo quiero!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 p-3">
+          <div class="pricing-table text-center feature_item font-color">
+            <div class="title">
+              <h3 class="texto-principal style-text w500">Plus</h3>
+            </div>
+
+            <div class="price color-plus d-flex flex-row">
+              <div class="col-sm tarjeta-paquete">
+                <img src="{{asset('images/360.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
+              </div>
+              <div class="col-sm mes-paquete">
+                <p class="color-priceB animate__animated animate__heartBeat animate__infinite style-text w400">/ Mes</p>
+              </div> 
+            </div>
+
+            <ul class="feature-list">
+              <li class="style-text w500">5 Mb Subida</li>
+              <li class="style-text w500">15 Mb Bajada</li>
+              <li class="style-text w500">Instalación GRATIS</li>
+              <li class="resticciones style-text w200">* aplican restricciones</li>
+            </ul>
+            <hr class="hr-plus">
+            <div class="action-button">
+              <a href="" class="btn btn-main-rounded btn-priceP style-text w800">¡Lo quiero!</a>
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+
+      <!-- <div class="col-lg-12">
         <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
           <div class="item">
             <div class="pricing-table text-center feature_item font-color">
@@ -262,9 +349,94 @@
           </div>
 
         </div>
+      </div> -->
+
+      <div class="row ps-5" style="justify-content: center;">
+        <div class="col-lg-4  col-md-6">
+          <div class="pricing-table text-center feature_item font-color">
+            <div class="title">
+              <h3 class="texto-principal">Basico</h3>
+            </div>
+
+            <div class="price color-basico d-flex flex-row">
+                <div class="col-sm tarjeta-paquete">
+                  <img src="{{asset('images/280.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
+                </div>
+                <div class="col-sm mes-paquete">
+                  <p class="color-priceB animate__animated animate__heartBeat animate__infinite">/ Mes</p>
+                </div> 
+            </div>
+
+            <ul class="feature-list">
+              <li>1 Mb Subida</li>
+              <li>5 Mb Bajada</li>
+              <li>Instalación GRATIS</li>
+              <li class="resticciones">* aplican restricciones</li>
+              <hr class="hr-basico">
+            </ul>
+            <div class="action-button">
+              <a href="" class="btn btn-main-rounded btn-priceB">Adquirir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4  col-md-6">
+          <div class="pricing-table featured text-center font-color">
+            <div class="title">
+              <h3 class="texto-principal">Ideal</h3>
+            </div>
+
+            <div class="price color-ideal d-flex flex-row">
+              <div class="col-sm tarjeta-paquete">
+                <img src="{{asset('images/320.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
+              </div>
+              <div class="col-sm mes-paquete">
+                <p class="color-priceB animate__animated animate__heartBeat animate__infinite">/ Mes</p>
+              </div> 
+            </div>
+
+            <ul class="feature-list">
+              <li>A2 Mb Subida</li>
+              <li>10 Mb Bajada</li>
+              <li>Instalación GRATIS</li>
+              <li class="resticciones">* aplican restricciones</li>
+            </ul>
+            <hr class="hr-ideal">
+            <div class="action-button">
+              <a href="" class="btn btn-main-rounded btn-priceI">Adquirir</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4  col-md-6">
+          <div class="pricing-table text-center feature_item font-color">
+            <div class="title">
+              <h3 class="texto-principal">Plus</h3>
+            </div>
+
+            <div class="price color-plus d-flex flex-row">
+              <div class="col-sm tarjeta-paquete">
+                <img src="{{asset('images/360.png')}}" alt="Banner secundario" class="w-100 mx-auto d-block img-basico">
+              </div>
+              <div class="col-sm mes-paquete">
+                <p class="color-priceB animate__animated animate__heartBeat animate__infinite">/ Mes</p>
+              </div> 
+            </div>
+
+            <ul class="feature-list">
+              <li>5 Mb Subida</li>
+              <li>15 Mb Bajada</li>
+              <li>Instalación GRATIS</li>
+              <li class="resticciones">* aplican restricciones</li>
+            </ul>
+            <hr class="hr-plus">
+            <div class="action-button">
+              <a href="" class="btn btn-main-rounded btn-priceP">Adquirir</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
   </section>
 
   <section class="simple-cta mb-5">
