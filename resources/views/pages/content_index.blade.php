@@ -16,10 +16,10 @@
           <span class="text-white h3 hmds w600 style-text">¡SpotUno te ofrece solo lo mejor!</span>
           <div class="d-flex flex-row">
             <div class="mt-5 p-3 d-none d-sm-block">
-              <a href="#" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
             </div>
             <div class="mt-5 p-3 d-none d-sm-block">
-              <a href="#" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@
         <h3 class="text-white mb-3 text-center p-3 style-text w400">Disfruta de todo <span class="style-text w800">nuestros paquetes</span></h3>
         <h5 class="text-white text-center w400 style-text">Queremos ofrecerte solo lo mejor, seleccina, compra y disfruta</h5>
         <div class="col text-center p-3">
-          <button type="button" class="btn btn-outline-secondary btn-border w400 style-text">Ver paquetes</button>
+            <a href="{!! URL::to('planes')!!}" class="btn btn-outline-secondary btn-border w400 style-text">Ver paquetes</a>
         </div>
       </div>
     </div>
@@ -199,7 +199,7 @@
               <hr class="hr-basico">
             </ul>
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded btn-priceB style-text w800">¡Lo quiero!</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB style-text w800">¡Lo quiero!</a>
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@
             </ul>
             <hr class="hr-ideal">
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded btn-priceI style-text w800">¡Lo quiero!</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceI style-text w800">¡Lo quiero!</a>
             </div>
           </div>
         </div>
@@ -255,7 +255,7 @@
             </ul>
             <hr class="hr-plus">
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded btn-priceP style-text w800">¡Lo quiero!</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceP style-text w800">¡Lo quiero!</a>
             </div>
           </div>
         </div>

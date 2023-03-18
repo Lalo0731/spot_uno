@@ -154,42 +154,41 @@ https://templatemo.com/tm-573-eduwell
   </footer>
 
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
-  {{--  <nav class="tabbar d-xl-none">
+  <nav class="tabbar d-xl-none h-3">
     <div>
-      <a href="#">
-        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/home.svg" alt="Up Therapy">
-        <span class="style-text w600 tbbar-texto">¡Contratar ahora!</span>
+      <a href="/">
+        <i class="fa-solid fa-house spt-nav"></i>
+        <span class="style-text w600 tbbar-texto">Inicio</span>
       </a>
     </div>
   
     <div>
-      <a class="btn_especialidades" href="#">
-        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/star.svg" alt="Up Therapy">
-        <span class="style-text w600 tbbar-texto">Ver paquetes</span>
+      <a class="btn_especialidades" href="{!! URL::to('recarga')!!}">
+        <i class="fa-solid fa-receipt spt-nav" ></i>
+        <span class="style-text w600 tbbar-texto">Pago mensualidad</span>
       </a>
     </div>
   
     <div class="whatsapp">
-      <a target="_blank" href="/">
-          <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/home.svg" alt="Up Therapy">
-          <span class="style-text w600 tbbar-texto">Inicio</span>
+      <a href="/">
+          <img src="{{asset('images/logo.png')}}" alt="Up Therapy">
       </a>
     </div>
   
     <div>
-      <a class="btn_inovaciones" href="{!! URL::to('recarga')!!}">
-        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/led.svg" alt="Up Therapy">
-        <span class="style-text w600 tbbar-texto">Recargas</span>
+      <a class="btn_inovaciones" target="_blank" href="https://www.facebook.com/spotunochihuahua">
+        <i class="fa-brands fa-facebook spt-nav"></i>
+        <span class="style-text w600 tbbar-texto">Facebook</span>
       </a>
     </div>
   
     <div>
-      <a target="_blank" href="{!! URL::to('planes')!!}">
-        <img src="https://clinicadefisioterapiacdmx.com/src/assets/images/tabbar/calendar.svg" alt="Up Therapy">
+      <a href="{!! URL::to('planes')!!}">
+        <i class="fa-solid fa-file spt-nav"></i>
         <span class="style-text w600 tbbar-texto">Paquetes</span>
       </a>
     </div>
-  </nav>  --}}
+  </nav>
   {{--  BARRA TIPO APP EN RESPONSIVE  --}}
   
   <!-- Scripts -->

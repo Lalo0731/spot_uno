@@ -35,7 +35,7 @@
               <hr class="hr-basico">
             </ul>
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded btn-priceB">Adquirir</a>
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-main-rounded btn-priceB">Adquirir</a>
             </div>
           </div>
         </div>

@@ -223,7 +223,7 @@ body {
 }
 .mes-paquete{
   margin-top: 2.5rem; 
-  margin-left: -13rem; 
+  margin-left: -14rem; 
   margin-bottom: -1rem;
 }
 .color-basico{
@@ -373,6 +373,16 @@ body {
   color: #0c498e;
 }
 
+.spt-nav{
+  height: 1.3rem!important;
+  font-size: 1.2rem!important;
+  color: #fff!important;
+}
+
+.h-3{
+  height: 3rem;
+}
+
 @media (max-width: 767px){
   .formulario_pagar{
     flex-direction: column;
@@ -385,11 +395,32 @@ body {
   }
 }
 
+
 @media (max-width: 1399px){
   .header-area .main-nav .nav {
     margin-top: -64px;
   }
 }
+
+@media (max-width: 1400px){
+  .mes-paquete {
+    margin-top: 2.5rem;
+    margin-left: -12rem;
+  }
+  .tarjeta-paquete {
+    margin-left: 5rem;
+  } 
+}
+@media (max-width: 1199.98px) {
+  .mes-paquete {
+    margin-top: 2.5rem;
+    margin-left: -11rem;
+  }
+  .tarjeta-paquete {
+    margin-left: 5rem;
+  } 
+}
+
 
 /* header-area .main-nav .nav {
   float: right;
