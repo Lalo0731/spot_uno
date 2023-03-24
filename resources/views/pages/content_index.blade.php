@@ -475,7 +475,7 @@
               <hr class="hr-basico">
             </ul>
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded btn-priceB">Adquirir</a>
+              <a href="https://api.whatsapp.com/send?phone=526144713178&text=Quiero%20saber%20mas%20del%20internet%20de%20spot%20uno%20Plan%20IDEAL" class="btn btn-main-rounded btn-priceB">Adquirir</a>
             </div>
           </div>
         </div>
@@ -503,7 +503,7 @@
             </ul>
             <hr class="hr-ideal">
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded btn-priceI">Adquirir</a>
+              <a href="https://api.whatsapp.com/send?phone=526144713178&text=Quiero%20saber%20mas%20del%20internet%20de%20spot%20uno%20Plan%20IDEAL" class="btn btn-main-rounded btn-priceI">Adquirir</a>
             </div>
           </div>
         </div>
@@ -531,7 +531,7 @@
             </ul>
             <hr class="hr-plus">
             <div class="action-button">
-              <a href="" class="btn btn-main-rounded btn-priceP">Adquirir</a>
+              <a href="https://api.whatsapp.com/send?phone=526144713178&text=Quiero%20saber%20mas%20del%20internet%20de%20spot%20uno%20Plan%20IDEAL" class="btn btn-main-rounded btn-priceP">Adquirir</a>
             </div>
           </div>
         </div>
