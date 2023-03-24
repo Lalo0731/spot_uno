@@ -11,26 +11,86 @@
     <div class="carousel-inner mt5">
       <div class="carousel-item active position-relative d-inline-block" data-bs-interval="4000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="color-slogan col-6 w900 style-text">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 text-white h4 hmd col-6 w400 style-text">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="text-white h3 hmds w600 style-text">¡SpotUno te ofrece solo lo mejor!</span>
-          <div class="d-flex flex-row">
-            <div class="mt-5 p-3 d-none d-sm-block">
+          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+
+          {{--  Responivo  --}}
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          {{--  Responsivo  --}}
+
+          <div class="d-flex flex-row mt-n2">
+            <div class="mt-5 p-3 ">
               <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
             </div>
-            <div class="mt-5 p-3 d-none d-sm-block">
+            <div class="mt-5 p-3 ">
               <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
             </div>
           </div>
         </div>
         
-        <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100" alt="...">
+        <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen1">
+        {{--  Responsivo  --}}
+        <img src="{{asset('images/Banner-respon.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen1">
+        {{--  Responsivo  --}}
       </div>
+
       <div class="carousel-item" data-bs-interval="5000">
-        <img src="{{asset('images/Banner-Recargas.jpg')}}" class="d-block w-100" alt="...">
+        <div class="position-absolute mt-14 pl-8">
+          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 color-slogan2 h4 hmd col-5 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="color-slogan2 h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+
+          {{--  Responsivo  --}}
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 color-slogan2 h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="color-slogan2 h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          {{--  Responsivo  --}}
+
+          <div class="d-flex flex-row mt-n2">
+            <div class="mt-5 p-3 ">
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete1 w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+            </div>
+            <div class="mt-5 p-3 ">
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete2 w400 style-text color-slogan2" role="button" aria-pressed="true">Ver paquetes</a>
+            </div>
+          </div>
+        </div>
+        
+        <img src="{{asset('images/Banner-secundario.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen2">
+        {{--  Responsivo  --}}
+        <img src="{{asset('images/Banner-respon2.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen2">
+        {{--  Responsivo  --}}
       </div>
+
       <div class="carousel-item" data-bs-interval="4000">
-        <img src="{{asset('images/imgTel5.jpeg')}}" class="d-block w-100" alt="...">
+        <div class="position-absolute mt-14 pl-8">
+          <h1 class="color-slogan text-white col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="color-slogan mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="color-slogan text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+
+          {{--  Responsivo  --}}
+          <h1 class="color-slogan text-white col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          {{--  Responsivo  --}}
+
+          <div class="d-flex flex-row mt-n2">
+            <div class="mt-5 p-3 ">
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+            </div>
+            <div class="mt-5 p-3 ">
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
+            </div>
+          </div>
+        </div>
+
+        <img src="{{asset('images/Banner-terciario.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen3">
+        {{--  Responsivo  --}}
+        <img src="{{asset('images/Banner-respon3.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen3">
+        {{--  Responsivo  --}}
       </div>
     </div>
 
@@ -47,8 +107,48 @@
 <section class="pricing bg-shape">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
         <div class="d-flex flex-row">
+          <div class="img-banner">
+            <img src="{{asset('images/Banner-peque.jpg')}}" alt="Banner secundario" class="img-bannerSecundario">
+          </div>
+          <div>
+            <h2 class="color-titulo style-text w800">¿Quiénes somos?</h2>
+              <p class="text-quienes_somos style-text w500">
+                Somos una empresa que ofrece conexiones a internet de banda ancha en áreas de difícil acceso por
+                los operadores tradicionales, además de conexiones de internet a alta velocidad también en zonas urbanas.
+              </p>
+              <ul class="iconos-informacion">
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen1" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto style-text w700">Wifi en todos tus dispositivos</p></div>
+                </li>
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen2" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto style-text w700">Soporte 24/7</p>
+                  </div>
+                </li>
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen3" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto style-text w700">Los mejores planes</p>
+                  </div>
+                </li>
+                <li class="iconos-informacion__img">
+                  <div class="d-flex flex-row">
+                    <img src="{{asset('images/Pont-check.png')}}" alt="Imagen4" class="Pont-check">
+                    <p class="color-texto iconos-informacion__texto style-text w700">Personal capacitado</p>
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>   
+
+      <div class="col-12 d-xl-none d-lg-none d-xl-block ">
+        <div class="d-flex flex-column bd-highlight mb-3">
           <div class="img-banner">
             <img src="{{asset('images/Banner-peque.jpg')}}" alt="Banner secundario" class="img-bannerSecundario">
           </div>

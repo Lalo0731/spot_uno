@@ -189,7 +189,7 @@ body {
   margin: 0 0 0 1rem;
 }
 .Pont-check{
-  width: 10%;
+  width: 14%;
   margin-bottom: 1rem;
 }
 .color-apart{
@@ -258,7 +258,8 @@ body {
   margin: auto;
 }
 .form-recharge{
-  width: 115%; 
+  /* width: 115%;  */
+  width: auto; 
   margin-top: 18rem; 
   padding: 4rem!important;
 }
@@ -326,6 +327,9 @@ body {
 .color-slogan{
   color: #004a90;
 }
+.color-slogan2{
+  color: #6d6b6c!important;
+}
 
 .mt-14{
   top: 14rem;
@@ -347,6 +351,22 @@ body {
 .vr-paquete{
   background-color: transparent!important;
   border-color: #fff!important;
+}
+.vr-paquete:hover{
+  background-color: #0148A3!important;
+  border-color: #0148A3!important;
+}
+.vr-paquete2{
+  background-color: transparent!important;
+  border-color: #fff!important;
+}
+.vr-paquete2:hover{
+  background-color: #0148A3!important;
+  border-color: #0148A3!important;
+  color: #fff!important;
+}
+.vr-paquete1:hover{
+  color: #6d6b6c!important;
 }
 .vr-paquete:hover{
   background-color: #0148A3!important;
@@ -383,6 +403,14 @@ body {
   height: 3rem;
 }
 
+.mt-n2{
+  margin-top: -2rem;
+}
+
+.text-ingre{
+   font-size: 1rem;
+}
+
 @media (max-width: 767px){
   .formulario_pagar{
     flex-direction: column;
@@ -392,13 +420,6 @@ body {
 @media (max-width: 767px){
   .opps {
     width: 340px;
-  }
-}
-
-
-@media (max-width: 1399px){
-  .header-area .main-nav .nav {
-    margin-top: -64px;
   }
 }
 
@@ -427,12 +448,41 @@ body {
   margin-top: 35px;
 } */
 
-@media (min-width: 992px){
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+  .modal-conekta {
+    max-width: 700px; 
+  }
+
+  .mt-14 {
+    top: 8rem;
+  }
+  .pri-texto{
+    font-size: 40px!important;
+  }
+  .cont-texto{
+    font-size: 18px;
+  }
+
+}
+/* @media (min-width: 992px){
   .modal-conekta {
       max-width: 700px;
   }
+} */
+@media only screen and (min-width: 1200px){
+  /* .header-area .main-nav .nav {
+    margin-top: 35px;
+  } */
+  .mt-14 {
+    top: 9rem;
+  }
 }
-
+/* @media only screen and (min-width: 1201px){
+  .header-area .main-nav .nav {
+    margin-top: -64px;
+  }
+} */
 
 /** INICIO MODAL CONEKTA**/
 .text-h3 {

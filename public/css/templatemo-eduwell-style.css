@@ -135,21 +135,7 @@ body {
   color: #fff;
 }
 
-@media (max-width: 991px) {
-  html, body {
-    overflow-x: hidden;
-  }
-  .mobile-top-fix {
-    margin-top: 30px;
-    margin-bottom: 0px;
-  }
-  .mobile-bottom-fix {
-    margin-bottom: 30px;
-  }
-  .mobile-bottom-fix-big {
-    margin-bottom: 60px;
-  }
-}
+
 
 .main-button-gradient a {
   font-size: 13px;
@@ -568,287 +554,38 @@ header
   color: #dc8cdb;
 }
 
-@media (max-width: 1200px) {
-  .header-area .main-nav .nav li {
-    padding-left: 7px;
-    padding-right: 7px;
-  }
-  .header-area .main-nav:before {
-    display: none;
-  }
-}
 
-@media (max-width: 767px) {
-  /**LALO**/
-  .img-banner{
-    padding: 0rem 0rem 0rem 0rem!important;
-  }
-  .img-wifi-respon{
-    margin-top: -4rem;
-  }
-  .img-wifi {
-    width: 300%!important;
-  }
-  .mt5{
-    margin-top: 5rem;
-  }
-  .tarjeta-paquete{
-    margin-left: 0rem!important;
-  }
-  .mes-paquete{
-    margin-top: 3.5rem!important;
-    margin-left: -10.5rem!important;
-  }
-  .form-recharge{
-    width: auto!important; 
-    margin-top: 0!important;
-    height: 77% !important;
-  }
-  .texto-form{
-    margin-top: 5rem;
-  }
-  .iconos-informacion {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr)!important;
-    justify-content: center;
-    margin: 1rem 0px 0rem 0rem!important;
-  }
-  .pl-8{
-    padding-left: 3rem!important;
-  }
-  .mt-14{
-    top: 2rem!important;
-  }
-  .color-slogan{
-    font-size: 1rem;
-  }
-  .hmd{
-    font-size: 0.6rem;
-    margin-top: 0.5rem !important;
-  }
-  .hmds{
-    font-size: 1rem;
-  }
-  #canvas {
-    left: -11rem!important;
-  } 
-  .pricing-table .price p {
-    font-size: 22px!important;
-  }
 
-  /** BARRA TIPO APP EN RESPONSIVE**/
-  /* .tabbar {
-    grid-area: tabbar;
-    display: flex;
-    width: 100%;
-    background-color: #fff;
-    align-items: center;
-    justify-content: center;
-    position: sticky;
-    bottom: 0;
-    z-index: 1;
-  }
 
-  .tabbar > div {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-  }
 
-  .tabbar > div > a {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: var(--small-description-size);
-    color: var(--text-color);
-  }
 
-  .tabbar > div > a img {
-    height: 2rem;
-    object-fit: contain;
-  }  */
-  
-  /* :::::::::::::::::::::: START TABBAR ::::::::::::::::::::::  */
-  .tabbar {
-    grid-area: tabbar;
-    display: flex;
-    width: 100%;
-    background-color: #0a4f97;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    /* position: sticky; */
-    bottom: 0;
-    z-index: 5;
-    /* z-index: 1; */
-  }
 
-  .tbbar-texto{
-    font-size: 8px;
-    color: #fff;
-  }
-
-  .tabbar>div {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .tabbar>div>a {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: var(--small-description-size);
-    color: var(--text-color);
-  }
-
-  .tabbar>div>a img {
-    height: 2rem;
-    object-fit: contain;
-  }
-
-  .whatsapp{
-    margin-top: 1rem;
-  }
-
-  .tabbar>div.whatsapp {
-    flex: 0;
-  }
-
-  .tabbar>div.whatsapp>a {
-    width: 3.5rem;
-    height: 3.5rem;
-    background-color: var(--card-color);
-    border-radius: 100%;
-    margin-top: -2rem;
-    box-shadow: var(--default-box-shadow);
-    line-height: 0;
-  }
-
-  .tabbar>div.whatsapp>a>div {
-    display: flex;
-    width: 2.8rem;
-    height: 2.8rem;
-    background-color: var(--primary-color);
-    align-items: center;
-    justify-content: center;
-    padding: 0.3rem;
-    border-radius: 100%;
-  }
-
-/* :::::::::::::::::::::: END TABBAR ::::::::::::::::::::::  */ 
-
-  /** BARRA TIPO APP EN RESPONSIVE**/
-
-  /**LALO**/
-
-  .header-area .main-nav .logo {
-    color: #1e1e1e;
-  }
-  .header-area.header-sticky .nav li a:hover,
-  .header-area.header-sticky .nav li a.active {
-    color: #0e4680!important;
-    opacity: 1;
-  }
-  .header-area.header-sticky .nav li.search-icon a {
-    width: 100%;
-  }
-  .header-area {
-    background-color: #f7f7f7;
-    padding: 0px 15px;
-    height: 100px;
-    box-shadow: none;
-    text-align: center;
-  }
-  .header-area .container {
-    padding: 0px;
-  }
+@media (max-width: 575.98px) {
   .header-area .logo {
     margin-left: 30px;
   }
-  .header-area .menu-trigger {
-    display: block !important;
-  }
-  .header-area .main-nav {
-    overflow: hidden;
-  }
-  .header-area .main-nav .nav {
-    float: none;
-    width: 100%;
-    display: none;
-    -webkit-transition: all 0s ease 0s;
-    -moz-transition: all 0s ease 0s;
-    -o-transition: all 0s ease 0s;
-    transition: all 0s ease 0s;
-    margin-left: 0px;
-  }
-  .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
-  }
-  .header-area.header-sticky .nav {
-    margin-top: 100px !important;
-  }
-  .header-area .main-nav .nav li {
-    width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-  .header-area .main-nav .nav li a {
-    height: 50px !important;
-    line-height: 50px !important;
-    padding: 0px !important;
-    border: none !important;
-    background: #f7f7f7 !important;
-    color: #043ee4 !important;
-  }
-  .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-    /* color: #dc8cdb!important; */
-  }
-  .header-area .main-nav .nav li.has-sub ul.sub-menu {
-    position: relative;
-    visibility: inherit;
-    opacity: 1;
-    z-index: 1;
-    transform: translateY(0%);
-    top: 0px;
-    width: 100%;
-    box-shadow: none;
-    height: 0px;
-    transition: all 0s;
-  }
-  .header-area .main-nav .nav li.submenu ul li a {
-    font-size: 12px;
-    font-weight: 400;
-  }
-  .header-area .main-nav .nav li.submenu ul li a:hover:before {
-    width: 0px;
-  }
-  .header-area .main-nav .nav li.has-sub ul.sub-menu {
-    height: auto;
-  }
-  .header-area .main-nav .nav li.has-sub:after {
-    color: #3B566E;
-    right: 30px;
-    font-size: 14px;
-    top: 15px;
-  }
-  .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
-    height: 0px;
-  }
 }
-
 @media (min-width: 767px) {
   .header-area .main-nav .nav {
     display: flex !important;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .mt-14 {
+    top: 8rem!important;
+  }
+  .pri-texto{
+    font-size: 30px!important;
+  }
+  .cont-texto{
+    font-size: 11px!important;
+  }
+  .spt-texto{
+    font-size: 20px!important;
   }
 }
 
@@ -1947,6 +1684,12 @@ body {
   background-size: cover; */
 }
 
+@media (max-width: 1399px) {
+  .header-area .nav {
+    margin-top: -64px!important;  
+  }
+}
+
 @media (max-width: 1330px) {
   .services .owl-nav .owl-next{
     right: -30px;
@@ -1960,6 +1703,9 @@ body {
   .our-courses .owl-nav .owl-prev{
     left: -25px;
   }
+  .header-area .nav {
+    margin-top: -64px!important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1969,9 +1715,9 @@ body {
   .main-banner .header-text h2 {
     font-size: 62px;
   }
-  .header-area {
+  /* .header-area {
     background: #0a4f97!important;
-  }
+  } */
   .respont-logo{
     text-align: start;
   }
@@ -1991,6 +1737,18 @@ body {
   .our-courses .owl-nav .owl-prev{
     left: -65px;
   }
+
+  /* LALO */
+  .header-area .main-nav .nav li {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .header-area .main-nav:before {
+    display: none;
+  }
+  .header-area {
+    background: #0a4f97!important;
+  }
 }
 
 @media (max-width: 1085px) {
@@ -2006,6 +1764,12 @@ body {
   .our-courses .owl-nav .owl-prev{
     left: -25px;
   }
+  .header-area {
+    background: #0a4f97!important;
+  }
+  .header-area .main-nav .nav {
+    margin-top: -64px;
+  }
 }
 
 @media (max-width: 1005px) {
@@ -2020,6 +1784,9 @@ body {
   }
   .our-courses .owl-nav .owl-prev{
     display: none;
+  }
+  .header-area {
+    background: #0a4f97!important;
   }
 }
 
@@ -2085,6 +1852,26 @@ body {
     margin-right: 15px;
     padding-right: 15px;
   }
+
+
+  /* LALO */
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+  .header-area {
+    background: #0a4f97!important;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -2128,4 +1915,266 @@ body {
   section.more-info .count-area-content .count-title {
     font-size: 22px;
   }
+
+
+   /**LALO**/
+   .img-banner{
+    padding: 0rem 0rem 0rem 0rem!important;
+  }
+  .img-wifi-respon{
+    margin-top: -4rem;
+  }
+  .img-wifi {
+    width: 300%!important;
+  }
+  .mt5{
+    margin-top: 5rem;
+  }
+  .tarjeta-paquete{
+    margin-left: 0rem!important;
+  }
+  .mes-paquete{
+    margin-top: 3.5rem!important;
+    margin-left: -10.5rem!important;
+  }
+  .form-recharge{
+    width: auto!important; 
+    margin-top: 0!important;
+    height: 77% !important;
+  }
+  .texto-form{
+    margin-top: 5rem;
+    font-size: 36px!important;
+  }
+  .iconos-informacion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)!important;
+    justify-content: center;
+    margin: 1rem 0px 0rem 0rem!important;
+  }
+  .pl-8{
+    padding-left: 3rem!important;
+  }
+  .mt-14{
+    top: 2rem!important;
+  }
+  .color-slogan{
+    font-size: 2rem;
+  }
+  .hmd{
+    font-size: 0.6rem;
+    margin-top: 0.5rem !important;
+  }
+  .hmds{
+    font-size: 1rem;
+  }
+  #canvas {
+    left: -11rem!important;
+  } 
+  .pricing-table .price p {
+    font-size: 22px!important;
+  }
+
+  /** BARRA TIPO APP EN RESPONSIVE**/
+  
+  /* :::::::::::::::::::::: START TABBAR ::::::::::::::::::::::  */
+  .tabbar {
+    grid-area: tabbar;
+    display: flex;
+    width: 100%;
+    background-color: #0a4f97;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* position: sticky; */
+    bottom: 0;
+    z-index: 5;
+    /* z-index: 1; */
+  }
+
+  .tbbar-texto{
+    font-size: 8px;
+    color: #fff;
+  }
+
+  .tabbar>div {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tabbar>div>a {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--small-description-size);
+    color: var(--text-color);
+  }
+
+  .tabbar>div>a img {
+    height: 2rem;
+    object-fit: contain;
+  }
+
+  .whatsapp{
+    margin-top: 1rem;
+  }
+
+  .tabbar>div.whatsapp {
+    flex: 0;
+  }
+
+  .tabbar>div.whatsapp>a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--card-color);
+    border-radius: 100%;
+    margin-top: -2rem;
+    box-shadow: var(--default-box-shadow);
+    line-height: 0;
+  }
+
+  .tabbar>div.whatsapp>a>div {
+    display: flex;
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+    border-radius: 100%;
+  }
+
+/* :::::::::::::::::::::: END TABBAR ::::::::::::::::::::::  */ 
+
+  /** BARRA TIPO APP EN RESPONSIVE**/
+
+  section.simple-cta {
+    background-image: url(../images/banner-inferior-resp.jpg)!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    /* padding: 180px 0px 180px 0px; */
+    padding: 220px 0px 300px 0px;
+  
+    /* filter: hue-rotate(-84deg); */
+  }
+  .booking {
+    background-image: url(../images/Banner-Recarga-resp.jpg)!important;
+    background-repeat: no-repeat!important;
+    background-position: right center!important;
+    width: 100%;
+    /*padding: 220px 0px 300px 0px; */
+  }
+  .mt-recarga{
+    margin-top: 3rem!important;
+  }
+
+  .text-ingre{
+    font-size: 12px!important;
+  }
+
+  /**LALO**/
+
+  .header-area .main-nav .logo {
+    color: #1e1e1e;
+  }
+  .header-area.header-sticky .nav li a:hover,
+  .header-area.header-sticky .nav li a.active {
+    color: #0e4680!important;
+    opacity: 1;
+  }
+  .header-area.header-sticky .nav li.search-icon a {
+    width: 100%;
+  }
+  .header-area {
+    background-color: #f7f7f7;
+    padding: 0px 15px;
+    height: 100px;
+    box-shadow: none;
+    text-align: center;
+  }
+  .header-area .container {
+    padding: 0px;
+  }
+  .header-area .logo {
+    margin-left: 30px;
+  }
+  .header-area .menu-trigger {
+    display: block !important;
+  }
+  .header-area .main-nav {
+    overflow: hidden;
+  }
+  .header-area .main-nav .nav {
+    float: none;
+    width: 100%;
+    display: none;
+    -webkit-transition: all 0s ease 0s;
+    -moz-transition: all 0s ease 0s;
+    -o-transition: all 0s ease 0s;
+    transition: all 0s ease 0s;
+    margin-left: 0px;
+  }
+  .header-area .main-nav .nav li:first-child {
+    border-top: 1px solid #eee;
+  }
+  .header-area.header-sticky .nav {
+    margin-top: 100px !important;
+  }
+  .header-area .main-nav .nav li {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .header-area .main-nav .nav li a {
+    height: 50px !important;
+    line-height: 50px !important;
+    padding: 0px !important;
+    border: none !important;
+    background: #f7f7f7 !important;
+    color: #043ee4 !important;
+  }
+  .header-area .main-nav .nav li a:hover {
+    background: #eee !important;
+    /* color: #dc8cdb!important; */
+  }
+  .header-area .main-nav .nav li.has-sub ul.sub-menu {
+    position: relative;
+    visibility: inherit;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    top: 0px;
+    width: 100%;
+    box-shadow: none;
+    height: 0px;
+    transition: all 0s;
+  }
+  .header-area .main-nav .nav li.submenu ul li a {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .header-area .main-nav .nav li.submenu ul li a:hover:before {
+    width: 0px;
+  }
+  .header-area .main-nav .nav li.has-sub ul.sub-menu {
+    height: auto;
+  }
+  .header-area .main-nav .nav li.has-sub:after {
+    color: #3B566E;
+    right: 30px;
+    font-size: 14px;
+    top: 15px;
+  }
+  .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
+    height: 0px;
+  }
+
 }
