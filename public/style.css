@@ -220,6 +220,7 @@ body {
 .tarjeta-paquete{
   margin-left: 6rem; 
   margin-bottom: -1rem;
+  padding-right: 2rem;
 }
 .mes-paquete{
   margin-top: 2.5rem; 
@@ -412,18 +413,15 @@ body {
 }
 
 @media (max-width: 767px){
+  .opps {
+    width: 340px;
+  }
   .formulario_pagar{
     flex-direction: column;
   }
 }
 
-@media (max-width: 767px){
-  .opps {
-    width: 340px;
-  }
-}
-
-@media (max-width: 1400px){
+/* @media (max-width: 1400px){
   .mes-paquete {
     margin-top: 2.5rem;
     margin-left: -12rem;
@@ -431,8 +429,9 @@ body {
   .tarjeta-paquete {
     margin-left: 5rem;
   } 
-}
-@media (max-width: 1199.98px) {
+} */
+
+/* @media (max-width: 1199.98px) {
   .mes-paquete {
     margin-top: 2.5rem;
     margin-left: -11rem;
@@ -440,7 +439,7 @@ body {
   .tarjeta-paquete {
     margin-left: 5rem;
   } 
-}
+} */
 
 
 /* header-area .main-nav .nav {

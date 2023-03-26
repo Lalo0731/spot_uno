@@ -452,7 +452,8 @@
       </div> -->
 
       <div class="row ps-5" style="justify-content: center;">
-        <div class="col-lg-4  col-md-6">
+        <div class="w-auto">
+        {{--  <div class="col-lg-4  col-md-6">  --}}
           <div class="pricing-table text-center feature_item font-color">
             <div class="title">
               <h3 class="texto-principal">Basico</h3>
@@ -480,7 +481,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4  col-md-6">
+        <div class="w-auto">
+        {{--  <div class="col-lg-4  col-md-6">  --}}
           <div class="pricing-table featured text-center font-color">
             <div class="title">
               <h3 class="texto-principal">Ideal</h3>
@@ -508,7 +510,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4  col-md-6">
+        <div class="w-auto">
+        {{--  <div class="col-lg-4  col-md-6">  --}}
           <div class="pricing-table text-center feature_item font-color">
             <div class="title">
               <h3 class="texto-principal">Plus</h3>
