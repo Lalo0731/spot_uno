@@ -60,12 +60,22 @@
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
-            <div class="mt-5 p-3 ">
+            <div class="mt-5 p-3 d-none d-sm-block">
               <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete1 w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
             </div>
-            <div class="mt-5 p-3 ">
+            <div class="mt-5 p-3 d-none d-sm-block">
               <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete2 w400 style-text color-slogan2" role="button" aria-pressed="true">Ver paquetes</a>
             </div>
+
+            <!-- Responsivo -->
+            <div class="mt-5 p-1 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block ">
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+            </div>
+            <div class="mt-5 p-1 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
+            </div>
+            <!-- Responsivo -->
+
           </div>
         </div>
         
@@ -88,12 +98,22 @@
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
-            <div class="mt-5 p-3 ">
+            <div class="mt-5 p-3 d-none d-sm-block">
               <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
             </div>
-            <div class="mt-5 p-3 ">
+            <div class="mt-5 p-3 d-none d-sm-block">
               <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
             </div>
+
+            <!-- Responsivo -->
+            <div class="mt-5 p-1 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block ">
+              <a href="{!! URL::to('recarga')!!}" class="btn btn-primary btn-lg active br-radiu w400 style-text" role="button" aria-pressed="true">¡Contratar ahora!</a>
+            </div>
+            <div class="mt-5 p-1 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">
+              <a href="{!! URL::to('planes')!!}" class="btn btn-primary btn-lg active br-radiu vr-paquete w400 style-text" role="button" aria-pressed="true">Ver paquetes</a>
+            </div>
+            <!-- Responsivo -->
+
           </div>
         </div>
 
