@@ -11,7 +11,7 @@
                         <h1 class="text-white color-tl mb-4 text-center display-4 style-text w900" style="font-size: 3rem;">Es fácil y seguro</h1>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-n17">
                     <div class="color-recarga h-50 d-flex flex-column justify-content-center text-center p-5 wow zoomIn mt-8 border-radius form-recharge" data-wow-delay="0.6s">
                         <h1 class="text-white mb-4 texto-form style-text w600">Fácil y Rápido</h1>
                         <h3 class="text-white mb-4 text-ingre style-text w600 text-uppercase">Ingresa tus datos y paga en línea, evita las molestas filas y hazlo todo desde la comidad de tu casa</h3>

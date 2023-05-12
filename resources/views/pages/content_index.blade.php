@@ -11,14 +11,14 @@
     <div class="carousel-inner mt5">
       <div class="carousel-item active position-relative d-inline-block" data-bs-interval="4000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto d-sm-none d-md-block resp-mt-2">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
 
           {{--  Responivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block  mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block resp-mt-4">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block resp-p-4">¡SpotUno te ofrece solo lo mejor!</span>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -41,22 +41,22 @@
           </div>
         </div>
         
-        <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen1">
+        <img src="{{asset('images/Banner-principal.jpg')}}" class="d-block w-100 d-none d-sm-block d-sm-none d-md-block resp-mt-4" alt="imagen1">
         {{--  Responsivo  --}}
-        <img src="{{asset('images/Banner-respon.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen1">
+        <img src="{{asset('images/Banner-respon.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block " alt="imagen1">
         {{--  Responsivo  --}}
       </div>
 
       <div class="carousel-item" data-bs-interval="5000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 color-slogan2 h4 hmd col-5 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="color-slogan2 h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan col-6 w900 style-text d-none d-sm-block pri-texto d-sm-none d-md-block resp-mt-2">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 color-slogan2 h4 hmd col-5 w400 style-text d-none d-sm-block cont-texto d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="color-slogan2 h3 hmds w600 style-text style-text d-none d-sm-block spt-texto d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
 
           {{--  Responsivo  --}}
-          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 color-slogan2 h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="color-slogan2 h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block  mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 color-slogan2 h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block resp-mt-4">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="color-slogan2 h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block ">¡SpotUno te ofrece solo lo mejor!</span>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -79,22 +79,22 @@
           </div>
         </div>
         
-        <img src="{{asset('images/Banner-secundario.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen2">
+        <img src="{{asset('images/Banner-secundario.jpg')}}" class="d-block w-100 d-none d-sm-block d-sm-none d-md-block resp-mt-4" alt="imagen2">
         {{--  Responsivo  --}}
-        <img src="{{asset('images/Banner-respon2.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen2">
+        <img src="{{asset('images/Banner-respon2.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block " alt="imagen2">
         {{--  Responsivo  --}}
       </div>
 
       <div class="carousel-item" data-bs-interval="4000">
         <div class="position-absolute mt-14 pl-8">
-          <h1 class="color-slogan text-white col-6 w900 style-text d-none d-sm-block pri-texto">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="color-slogan mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="color-slogan text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan text-white col-6 w900 style-text d-none d-sm-block pri-texto d-sm-none d-md-block resp-mt-2">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="color-slogan mt-4 text-white h4 hmd col-6 w400 style-text d-none d-sm-block cont-texto d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="color-slogan text-white h3 hmds w600 style-text style-text d-none d-sm-block spt-texto d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
 
           {{--  Responsivo  --}}
-          <h1 class="color-slogan text-white col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
-          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
-          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block">¡SpotUno te ofrece solo lo mejor!</span>
+          <h1 class="color-slogan text-white col-10 w900 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block  mt-4 text-center">Contrata y disfruta de los paquetes que tenemos para ti.</h1>
+          <p class="mt-4 text-white h6 text-center col-10 w400 style-text d-xl-none d-lg-none d-xl-block d-md-none d-lg-block resp-mt-4">Contrata y navega con los diferentes paquetes de internet que tenemos para ti, disfruta de tus series y películas favoritas.</p>
+          <span class="text-white h3 w600 style-text text-center d-xl-none d-lg-none d-xl-block d-md-none d-lg-block ">¡SpotUno te ofrece solo lo mejor!</span>
           {{--  Responsivo  --}}
 
           <div class="d-flex flex-row mt-n2">
@@ -117,9 +117,9 @@
           </div>
         </div>
 
-        <img src="{{asset('images/Banner-terciario.jpg')}}" class="d-block w-100 d-none d-sm-block" alt="imagen3">
+        <img src="{{asset('images/Banner-terciario.jpg')}}" class="d-block w-100 d-none d-sm-block d-sm-none d-md-block resp-mt-4" alt="imagen3">
         {{--  Responsivo  --}}
-        <img src="{{asset('images/Banner-respon3.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block d-sm-none d-md-block" alt="imagen3">
+        <img src="{{asset('images/Banner-respon3.jpg')}}" class="d-block w-100 d-xl-none d-lg-none d-xl-block d-md-none d-lg-block " alt="imagen3">
         {{--  Responsivo  --}}
       </div>
     </div>

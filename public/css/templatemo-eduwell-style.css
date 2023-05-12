@@ -583,7 +583,7 @@ header
     font-size: 30px!important;
   }
   .cont-texto{
-    font-size: 11px!important;
+    font-size: 15px!important;
   }
   .spt-texto{
     font-size: 20px!important;
@@ -1685,6 +1685,12 @@ body {
   background-size: cover; */
 }
 
+@media (min-width: 1700px){
+  .resp-mt-2{
+    margin-top: 4rem;
+  }
+}
+
 @media (max-width: 1399px) {
   .header-area .nav {
     margin-top: -64px!important;  
@@ -1884,6 +1890,12 @@ body {
   .header-area {
     background: #0a4f97!important;
   }
+  .resp-mt-4{
+    margin-top: 4rem;
+  }
+    .mt-n17{
+      margin-top: -17rem;
+    }
 
 }
 
@@ -1982,7 +1994,8 @@ body {
     top: 2rem!important;
   }
   .color-slogan{
-    font-size: 2rem;
+    font-size: 3rem;
+    /* font-size: 2rem; */
   }
   .hmd{
     font-size: 0.6rem;
@@ -2199,6 +2212,13 @@ body {
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+  .resp-mt-4{
+    margin-top: 4rem!important;
+  }
+  .mt-n17{
+    margin-top: 0rem;
+  }
+
 
 }
 
@@ -2218,5 +2238,11 @@ body {
   }
   .img-basico{
     width: 70%!important;
+  }
+  .resp-p-4 {
+    padding: 0rem;
+  }
+  .resp-mt-4 {
+    margin-top: 0rem!important;
   }
 }
